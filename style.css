@@ -1,0 +1,16 @@
+body {
+  background-color: #d3e8f7;
+}
+.jumbotron {
+  padding: 6rem 1rem;
+  background-color: #e2edff;
+}
+#galeri {
+  background-color: #e2edff;
+}
+.about {
+  background-color: #e2edff;
+}
+section {
+  padding-top: 5rem;
+}
