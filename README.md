@@ -1,5 +1,5 @@
 # parta99.github.io
-Pawiwahan De Juna & Kumala Dewi. landing page ini masih dalam tahap pengembangan 
+landing page ini masih dalam tahap pengembangan 
  This site was built using [GitHub Pages](https://pages.github.com/).
 
 > for view
