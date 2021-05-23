@@ -1,5 +1,5 @@
 # parta99.github.io
-Pawiwahan De Juna dan Kumala Dewi
+Pawiwahan De Juna & Kumala Dewi
  This site was built using [GitHub Pages](https://pages.github.com/).
 
 > for view
