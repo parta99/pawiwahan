@@ -1,0 +1,7 @@
+---
+deployment:
+task:
+  - export DEPLOYPATH=/home/namaUser/public_html/
+  - /bin/cp index.html $DEPLOYPATH
+  - /bin/cp style.css $DEPLOYPATH
+  - /bin/cp -R img $DEPLOYPATH
