@@ -11,7 +11,9 @@ require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
+
+# Social Media
 <ul>
-<li>Twitter(https://twitter.com/@djna911):https://twitter.com/@djna911</li>
-<li>Instagram(https://instagram.com/):https://www.instagram.com/djna911/</li>
+<li>Twitter : https://twitter.com/@djna911</li>
+<li>Instagram : https://www.instagram.com/djna911/</li>
 </ul>
