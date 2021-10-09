@@ -4,7 +4,7 @@ landing page ini masih dalam tahap pengembangan
  *penulisan code dan style dari landing page ini terinspirasi dari web programing unpas*
 
 > for view
-site is published at [Lannding Page DE John](https://parta99.github.io/pawiwahan/) :innocent:
+site is published at [Lannding Page DE John](https://parta99.github.io/) :innocent:
 
 ```ruby
 require 'redcarpet'
