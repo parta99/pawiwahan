@@ -1,4 +1,4 @@
-# parta99.github.io
+# Landing page Undangan nikah
 landing page ini masih dalam tahap pengembangan 
  This site was built using [GitHub Pages](https://pages.github.com/). 
  *penulisan code dan style dari landing page ini terinspirasi dari web programing unpas*
