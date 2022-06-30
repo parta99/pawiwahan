@@ -8,12 +8,13 @@ site is published at [Lannding Page DE John](https://parta99.github.io/) :innoce
 
 ```ruby
 require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
+markdown = Redcarpet.new("Solusi sebar undangan pernikahan mudah dengan undangan digital berbasis website.")
 puts markdown.to_html
 ```
 
 # Social Media
 <ul>
+<li>LinkedIn :https://www.linkedin.com/in/gede-juniada/</li>
 <li>Twitter : https://twitter.com/@djna911</li>
 <li>Instagram : https://www.instagram.com/djna911/</li>
 </ul>
