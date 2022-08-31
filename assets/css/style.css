@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(167, 167, 167);
+  background-image: linear-gradient(rgb(255, 168, 168), #0d6efd);
+}
+.jumbotron {
+  padding: 6rem 1rem;
+  /* background-image: url(../../assets/image/card/5688381a.jpg); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#galeri {
+  background-color: #e2edff;
+}
+.about {
+  background-color: #e2edff;
+}
+section {
+  padding-top: 3rem;
+}
+figure {
+  margin: 0;
+}
+.navbar {
+  background-color: rgb(215, 127, 161);
+}
+img.card-img-top {
+  width: 40%;
+}
+.card {
+  -webkit-box-shadow: 10px 10px 34px -10px rgba(136, 121, 176, 1);
+  -moz-box-shadow: 10px 10px 34px -10px rgba(136, 121, 176, 1);
+  box-shadow: 10px 10px 34px -10px rgba(136, 121, 176, 1);
+  border-radius: 5px;
+  margin-top: 10px;
+  background-image: url(https://i.ibb.co/FKp7Xgc/v987-rm424-08-mockup.jpg);
+}
+main {
+  padding: 20px;
+}
+.audio {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+}
+audio {
+  width: 250px;
+  height: 30px;
+}
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1030; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.container1 {
+  text-align: center;
+}
+h1.subtitle {
+  color: white;
+}
+
+h2.title {
+  color: white;
+}
+#toTop {
+  height: 50px;
+  width: 50px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #996e6d;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 2rem;
+  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
+}
+
+#toTop a {
+  color: white;
+}
+
+#toTop:hover {
+  background-color: #bc8887;
+}
+.hero {
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.3)), rgba(0, 0, 0, 0.55) url("https://i.ibb.co/X48FHGy/RAY-0165-1920.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  background-position: center;
+  color: white;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: "Raleway", sans-serif;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* countdown css */
+ul#hitungmundur {
+  list-style: none;
+  margin: 30px 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+ul#hitungmundur li {
+  display: inline-block;
+}
+ul#hitungmundur li span {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+}
+ul#hitungmundur li.separator {
+  font-size: 30px;
+  line-height: 25px;
+  vertical-align: top;
+}
+ul#hitungmundur li p {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
+@media (max-width: 670px){
+._1ci, ._1cj {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+}
+/* img {
+  border-radius: 5px;
+  margin-top: 10px;
+  background-image: url(../../assets/image/card/gfsfsfsfs-scaled.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */

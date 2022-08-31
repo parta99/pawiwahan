@@ -6,63 +6,449 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:description"   content="Kehadiran anda adalah kebahagian bagi kami sekeluarga"/>
     <meta property="og:image"         content="https://parta99.github.io/img/pawiwahan01.jpg"/>
+    <meta property="og:locale" content="id_ID" />
 
-    <meta name="facebook-domain-verification" content="rsa8wm68r8flzzsk0qgiclqnqsc3k8" />
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-    <!-- My css -->
-    <link rel="stylesheet" href="style.css" />
+    <!--Google font-->
     <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <!-- My css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
     <style>
-      h1{font-family: 'Tangerine', cursive;}
+      h1,.parag{font-family: 'Tangerine', cursive;}
     </style>
     <title>Pawiwahan Gede & Eka Kumala</title>
-<!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '552531116514943');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=552531116514943&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
   </head>
-  <body>
-
-       <!-- Awal -->
-    <section id="about">
-        <div class="container">
-          <div class="row text-center mb-3">
-            <div class="col mt-3">
-              <h1 class="fw-bold">Om Swastiastu</h1>
-            </div>
+  <body id="home">
+    <!-- audio -->
+    <!-- <audio hidden autoplay loop>
+      <source src="source/audio/Calum Scott, Leona Lewis - You Are The Reason (Duet Version).mp3" type="audio/mpeg">
+      Browser tidak mendukung tag audio
+    </audio> -->
+    <!-- akhir audio -->
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="7rEcvXxQ"></script>
+   <!-- end facebook -->
+   <header id="home">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Pawiwahan</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeri">Galeri</a>
+            </li>
+            <!--li class="nav-item">
+              <a class="nav-link" href="#lokasi">Lokasi Upacara</a>
+            </li-->
+            <li class="nav-item">
+              <a class="nav-link" href="#pesan">Pesan & Doa</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   </header>
+    <!-- akhir navbar -->
+    <!-- carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/pawiwahan03.jpg" class="d-block w-100" alt="pawiwahan03" />
+          <div class="carousel-caption d-md-block text-info">
+            <h5>Pawiwahan</h5>
+            <p>Gede & Eka Kumala</p>
           </div>
-          <div class="row justify-content-center fs-5 text-center">
-            <div class="col-md-6">
-                <div class="card">
-                    <!--img src="img/yoab-anderson-cAgpGPsr5SQ-unsplash.jpg" class="card-img-top" alt="..."-->
-                    <div class="card-body">
-                      <h5 class="card-title">Undangan Pawiwahan</h5>
-                      <p class="card-text">Kepada Yth. Bapak/Ibu/Saudara/i</p>
-                      <p class="card-text">Tanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i untuk hadir pada Upacara Pawiwahan Putra-Putri kami</p>
-                      <a href="pawiwahan.html" class="btn btn-primary stretched-link">Buka Undangan</a>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/pawiwahan02.jpg" class="d-block w-100" alt="pawiwahan02" />
+          <div class="carousel-caption d-md-block text-info">
+            <h5>Pawiwahan</h5>
+            <p>Gede & Eka Kumala</p>
+          </div>
+        </div>
+        
+        <div class="carousel-item">
+          <img src="assets/images/pawiwahan05.jpg" class="d-block w-100" alt="pawiwahan05" />
+          <div class="carousel-caption d-md-block text-info">
+            <h5>Pawiwahan</h5>
+            <p>Gede & Eka Kumala</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel end -->
+    <!-- content -->
+    <!-- About start -->
+    <main>
+    <section class="card" id="about">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col mt-3">
+            <h2>OM Swastiastu</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center fs-5 text-center">
+          <div class="col-md-6">
+            <p class="fst-italic">Atas Asung Kertha Wara Nugraha Ida Sang Hyang Widhi Wasa/Tuhan Yang Maha Esa, Kami bermaksud menyelengarakan upacara Pawiwahan putra-putri kami :</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About end -->
+    <!-- Jumbotron start -->
+    <section class="jumbotron text-center card">
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-md-4 mb-3">
+            <img src="assets/images/fpawiwahan-02.jpg" width="200" alt="Pawiwahan Juna & Kumala" class="rounded-circle img-thumbnail" />
+            <h1 class="display-12 text-center">I Wayan Gede Juniada,S.Kom.</h1>
+            <h2 class="fs-5">Putra Pertama dari pasangan</h2>
+            <h2 class="fs-5">I Made Serinu & Ni Wayan Srijati</h2>
+            <h2 class="fs-5">BR. Padang Tunggal Kauh</h2>
+          </div>
+          <div class="col-md-4 mb-3">
+            <i class="bi bi-heart-fill text-danger"style="font-size: 5rem;"></i>
+          </div>
+          <div class="col-md-4">
+            <img src="assets/images/fpawiwahan-01.jpg" width="200" alt="Pawiwahan Juna & Kumala" class="rounded-circle img-thumbnail" />
+            <h1 class="display-12 text-center">Ns.Ni Putu Eka Kumala Dewi,S.Kep.</h1>
+            <h2 class="fs-5">Putri Pertama dari pasangan</h2>
+            <h2 class="fs-5">I Made Sutama,S.H. & Ni Nyoman Sri Astiti,S.Pd.</h2>
+            <h2 class="fs-5">BR. Palak Sukawati</h2>
+          </div>
+          <div class="col-md-6 mt-3">
+            <p class="fs-5">Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu pada :</p>
+            <i class="bi bi-calendar2-check" style="font-size: 4rem;"></i>
+            <p class="fs-5">Kamis, 09 September 2021</p>
+            <p class="fs-5">Jam 15.00 - 19.00 WITA</p>
+            <p class="fs-5">Bertempat di Banjar Padang Tunggal Kauh, Desa Duda Kec.Selat  Kab.Karangasem</p>
+            <p class="card-text"></p>
+                <a href="https://goo.gl/maps/1cx27tNHjwx817Ec8" class="btn btn-outline-success fw-bold"> <i class="bi bi-geo-alt-fill" style="font-size: 1rem"></i> Buka google maps</a>
+          </div>
+          <!-- Start Countdown -->       
+          <div class="col-md-6 mt-3">
+            <ul id='hitungmundur'>
+              <li><span class="days">00</span><p class="days_text">Hari</p></li>
+              <li class="separator">:</li>
+              <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
+              <li class="separator">:</li>
+              <li><span class="minutes">00</span><p class="minutes_text">Menit</p></li>
+              <li class="separator">:</li>
+              <li><span class="seconds">00</span><p class="seconds_text">Detik</p></li>
+            </ul>
+            <div class="spasi">
+            </div>
+            <script type="text/javascript">
+              var now = new Date();
+              var day = now.getDate();
+              var month = now.getMonth() + 1;
+              var year = now.getFullYear() + 1;
+          
+              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+              
+
+              $('#hitungmundur').countdown({
+                date: '09/09/2021 08:00:00', // TODO Date format: 07/27/2017 17:00:00
+                offset: +8, // TODO Your Timezone Offset
+                day: 'Day',
+                days: 'Days'
+              },() => {
+                alert('Acara pernikahan kami sudah selesai. Terima kasih banyak buat yang sudah hadir! :)');
+              });
+            </script>  
+          </div>
+          <!-- End Countdown -->
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Jumbotron -->
+    <!-- Sloka -->
+    <section class="card">
+      <div class="container">
+        <div class="row justify-content-center fs-5 text-center">
+          <figure class="text-center">
+            <blockquote class="blockquote">
+              <p class="fst-italic">"Grbhnāmi te saubhagatvāya hastam, Mayā patyā jaradastir yathāsah, Bhago aryamā savitā puramdhir, Mahyam tvādurgārhapatyāya devāh."</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              <cite title="Source Title">Rgveda : X.85.36</cite>
+              <blockquote class="blockquote">
+                <p class="fst-italic">Dalam sebuah pernikahan kalian disatukan demi sebuah kebahagiaan dengan janji hati untuk saling membahagiakan. Bersamaku engkau akan hidup selamanya karena Tuhan pasti akan memberikan karunia sebagai pelindung dan saksi dalam pernikahan ini. Untuk itulah kalian dipersatukan dalam satu keluarga.</p>
+              </blockquote>
+            </figcaption>
+          </figure>
+          <div class="col-md-6">
+            <p>Atas Kehadiran serta Do'a Restunya, kami sekeluarga mengucapkan terima kasih. </p>
+          </div>
+        </div>
+        <div class="row text-center mb-3">
+          <div class="col mt-3">
+            <h2>Om Shanti, Shanti, Shanti Om</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Sloka -->
+    <!-- Protokol Kesehatan -->
+    <section class="jumbotron text-center card">
+      <div class="container">
+        <div class="row justify-content-around fs-5">
+          <div class="col-md-6 mb-3">
+            <div class="alert alert-danger d-flex align-items-center" role="alert">
+              <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                </symbol>
+                <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </symbol>
+              </svg>
+              <div>
+                <p>Acara ini di selenggarakan dengan mematuhi protokol pencegahan penyebaran COVID-19 dan bagi tamu undangan di harapkan dapat mengikutinya.</p>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-danger fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>Protokol Kesehatan Covid-19</button>
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen-md-down">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Protokol Kesehatan Covid-19</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <section>
+                        <div class="container">
+                          <div class="row text-center">
+                            <div class="col">
+                            <div class="card">
+                              <img src="img/galeri/protokolcov-19.jpg" class="card-img-top" alt="protokolcov-19">
+                            </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                   </div>
+                </div>
+              </div>
+              <!-- Akhir Modal -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Protokol Kesehatan -->
+    <!-- Full screen modal -->
+    
+    <!-- Galeri -->
+    <section class="card" id="galeri">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Galeri</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/wedding6.jpg" class="d-block w-100" alt="wedding6.jpg" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/wedding8.jpg" class="d-block w-100" alt="wedding8.jpg" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/wedding7.jpg" class="d-block w-100" alt="wedding7.jpg" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/wedding10.jpg" class="d-block w-100" alt="wedding10" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/wedding14.jpg" class="d-block w-100" alt="wedding14" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/wedding12.jpg" class="d-block w-100" alt="wedding12" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/images/wedding14.jpg" class="d-block w-100" alt="wedding14" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/wedding10.jpg" class="d-block w-100" alt="wedding10" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/images/wedding12.jpg" class="d-block w-100" alt="wedding12" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <!-- Akhir  -->
-
+      </div>
+    </section>
+    <!-- Akhir galeri -->
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#e2edff" fill-opacity="1" d="M0,256L80,266.7C160,277,320,299,480,277.3C640,256,800,192,960,181.3C1120,171,1280,213,1360,234.7L1440,256L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+    </svg> -->
+    <!-- Lokasi -->
+    <section id="lokasi" class="card">
+      <div class="container">
+        <div class="row text-center mb-3 mt-3">
+          <div class="col">
+            <h2>Lokasi Upacara</h2>
+          </div>
+        </div>
+        <div class="row text-center mb-3 mt-3">
+          <div class="col">
+            <img src="img/galeri/qr-code (1).png" class="card-img-top" alt="qr-code (1).png" /> 
+          </div>
+        </div>
+        <div class="row text-center mb-3 mt-3">
+          <div class="col">
+            <h5 class="card-title">Scan QR Code di atas</h5>
+              <p class="card-text"></p>
+              <a href="https://goo.gl/maps/1cx27tNHjwx817Ec8" class="btn btn-success" ><i class="bi bi-geo-alt-fill" style="font-size: 1rem"></i> View google maps</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pesan dan Doa -->
+    <section id="pesan" class="card">
+      <div class="container">
+        <div class="row text-center mb-3 mt-3">
+          <div class="col">
+            <h2>Pesan & Doa</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+          
+            <div class="card-body">
+              <h5 class="card-title fst-italic">Kirimkan Pesan Untuk Kedua Mempelai</h3>
+                <div class="fb-comments" data-href="https://parta99.github.io/" data-width="550" data-numposts="2"></div>
+            </div>
+          
+        </div>
+      </div>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,256L1440,192L1440,320L0,320Z"></path></svg> -->
+    </section>
+    <!-- Akhir pesan dan doa -->
+    </main>
+    <!-- content end -->
+    <!-- footer -->
+    <footer class="bg-primary text-white text-center pb-3">
+          <!-- audio -->
+    <figure>
+      <audio
+          controls
+          src="source/audio/Calum Scott, Leona Lewis - You Are The Reason (Duet Version).mp3" type="audio/mpeg">
+              Your browser does not support the
+              <code>audio</code> element.
+      </audio>
+  </figure>
+  <!-- akhir audio -->
+      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://twitter.com/@djna911" class="text-white fw-bold" style="text-decoration: none;"> DE J</a></p>
+    </footer>
+    <!-- Akhir footer -->
+        <!-- modal start -->
+        <div id="welcomeModal" class="modal1">
+          <div class="hero" style="height: 100vh">
+            <div class="container1">
+              <h1 class="subtitle">Pawiwahan</h1>
+              <h2 class="title"> Gede & Kumala</h2>
+              <p class="card-text">Yth. Bapak/Ibu/Saudara/i</p>
+              <h1 id="yth"></h1>
+              <h1 id="to"></h1>
+              <h1 id="invite" style="font-size: x-small; padding-left: 20px; padding-right: 20px"></h1>
+              <button style="margin-top: 10%; padding: 8px; background-color: #bf7877; border: 0ch; border-radius: 5px; color: white" onclick="closeWelcomeModal()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-heart" viewBox="0 0 16 16">
+                  <path
+                    fill-rule="evenodd"
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l3.235 1.94a2.76 2.76 0 0 0-.233 1.027L1 5.384v5.721l3.453-2.124c.146.277.329.556.55.835l-3.97 2.443A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741l-3.968-2.442c.22-.28.403-.56.55-.836L15 11.105V5.383l-3.002 1.801a2.76 2.76 0 0 0-.233-1.026L15 4.217V4a1 1 0 0 0-1-1H2Zm6 2.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"
+                  />
+                </svg>
+                Buka Undangan
+              </button>
+            </div>
+            <div class=""></div>
+          </div>
+        </div>
+        <!-- modal end -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/pawiwahan.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>
