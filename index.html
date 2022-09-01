@@ -177,14 +177,14 @@
               var year = now.getFullYear() + 1;
           
               var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-              var h ='09/09/2022 08:00:00'
+              var h ='09/09/2021 08:00:00'
 
               $('#hitungmundur').countdown({
                 date: h, // TODO Date format: 07/27/2017 17:00:00
                 offset: +8, // TODO Your Timezone Offset
                 day: 'Day',
                 days: 'Days',
-                hideOnComplete: true
+                // hideOnComplete: true
               },function (container){
                 alert('Acara pernikahan kami sudah selesai. Terima kasih banyak buat yang sudah hadir! :)');
               });
