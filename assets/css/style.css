@@ -9,7 +9,6 @@ body {
 }
 .jumbotron {
   padding: 6rem 1rem;
-  /* background-image: url(../../assets/image/card/5688381a.jpg); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +120,7 @@ h2.title {
 /* countdown css */
 ul#hitungmundur {
   list-style: none;
-  margin: 30px 0;
+  margin: 25px 0px 0px 0px;
   padding: 0;
   display: block;
   text-align: center;
@@ -143,12 +142,13 @@ ul#hitungmundur li p {
   color: rgb(0, 0, 0);
   font-size: 16px;
 }
-@media (max-width: 670px){
-._1ci, ._1cj {
+@media (max-width: 670px) {
+  ._1ci,
+  ._1cj {
     height: 32px;
     width: 32px;
     border-radius: 50%;
-}
+  }
 }
 /* img {
   border-radius: 5px;

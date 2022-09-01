@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta property="og:description"   content="Kehadiran anda adalah kebahagian bagi kami sekeluarga"/>
     <meta property="og:image"         content="https://parta99.github.io/assets/images/pawiwahan01.jpg"/>
-    <meta property="og:locale" content="id_ID" />
+    <meta property="og:locale"        content="id_ID" />
     <meta name="facebook-domain-verification" content="rsa8wm68r8flzzsk0qgiclqnqsc3k8" />
 
     <!--Google font-->
@@ -16,6 +16,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <!-- My css -->
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- cjs -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
     <style>
       h1,.parag{font-family: 'Tangerine', cursive;}
     </style>
@@ -154,8 +158,8 @@
                 <a href="https://goo.gl/maps/1cx27tNHjwx817Ec8" class="btn btn-outline-success fw-bold"> <i class="bi bi-geo-alt-fill" style="font-size: 1rem"></i> google maps</a>
           </div>
           <!-- Start Countdown -->       
-          <div class="col-md-6 mt-3">
-            <ul id='hitungmundur'>
+          <div class="col-md-6 mt-0">
+            <ul id="hitungmundur">
               <li><span class="days">00</span><p class="days_text">Hari</p></li>
               <li class="separator">:</li>
               <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
@@ -175,15 +179,15 @@
               var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
               var h ='09/09/2022 08:00:00'
 
-              // $("#hitungmundur").countdown({
-              //   date: h, // TODO Date format: 07/27/2017 17:00:00
-              //   offset: +8, // TODO Your Timezone Offset
-              //   day: 'Day',
-              //   days: 'Days',
-              //   hideOnComplete: true
-              // },function (container){
-              //   alert('Acara pernikahan kami sudah selesai. Terima kasih banyak buat yang sudah hadir! :)');
-              // });
+              $('#hitungmundur').countdown({
+                date: h, // TODO Date format: 07/27/2017 17:00:00
+                offset: +8, // TODO Your Timezone Offset
+                day: 'Day',
+                days: 'Days',
+                hideOnComplete: true
+              },function (container){
+                alert('Acara pernikahan kami sudah selesai. Terima kasih banyak buat yang sudah hadir! :)');
+              });
             </script>  
           </div>
           <!-- End Countdown -->
@@ -473,8 +477,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="assets/js/pawiwahan.js"></script>
-    <script src="assets/js/countdown.js"></script>
-    <!-- <script src="assets/js/jQcountdown.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>
