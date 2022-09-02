@@ -56,6 +56,7 @@ function closeModal() {
 
 function closeWelcomeModal() {
   welcomeModal.style.display = "none";
+  myAudio.play()
 }
 
 function copyToClipboard(element) {
@@ -72,4 +73,8 @@ function copyToClipboard(element) {
     .catch((err) => {
       console.log("Something went wrong", err);
     });
+}
+// play music in background
+function toggleAudio(value) {
+  return !value.checked ? myAudio.play() : myAudio.pause();
 }
