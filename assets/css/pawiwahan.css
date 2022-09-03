@@ -45,7 +45,7 @@ img.card-img-top {
 .col{
   margin-top: 20px;
 }
-#lokasi,#protokol,#pesan {
+#protokol {
   background-image: url(../../assets/images/ornam/Asset5.png);
   background-size: initial;
   background-repeat: no-repeat;
@@ -58,13 +58,13 @@ img.card-img-top {
   background-position: top 1px center, bottom 0px center;
 }
 #about{
-  background-image: url(../../assets/images/ornam/Asset5.png),url(../../assets/images/ornam/Asset6.png);
+  background-image: url(../../assets/images/ornam/Asset5.png),url(../../assets/images/ornam/Asset9a.png);
   background-position: top 1px center, bottom 1px center;
   background-repeat: no-repeat, no-repeat;
   background-size: initial;
 }
 #about {
-  padding-bottom: 6rem;
+  padding-bottom: 2rem;
 }
 #calender{
   background-size: initial;
@@ -165,7 +165,7 @@ h2.title {
   background-color: #bc8887;
 }
 .hero {
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.3)), rgba(0, 0, 0, 0.55) url("https://i.ibb.co/X48FHGy/RAY-0165-1920.jpg") no-repeat;
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.3)), rgba(0, 0, 0, 0.55) url("https://i.ibb.co/KDfWbFb/kompress38kb.jpg") no-repeat;
   background-size: cover;
   position: relative;
   height: 100%;
@@ -203,6 +203,7 @@ h2.title {
 
 .playpause-chk-icon + label::before {
   content: '❚❚';
+  cursor: pointer;
   display: block;
   font-size: 20px;
   position: relative;
@@ -214,6 +215,7 @@ h2.title {
 
 .playpause-chk-icon:checked + label::before {
   content: '►';
+  cursor: pointer;
   transform: rotate(0);
 }
 /* countdown css */

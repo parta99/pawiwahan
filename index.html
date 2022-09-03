@@ -4,8 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:image"         content="https://i.ibb.co/KDfWbFb/kompress38kb.jpg"/>
     <meta property="og:description"   content="Kehadiran anda adalah kebahagian bagi kami sekeluarga"/>
-    <meta property="og:image"         content="https://parta99.github.io/assets/images/pawiwahan01.jpg"/>
     <meta property="og:locale"        content="id_ID" />
     <meta name="facebook-domain-verification" content="rsa8wm68r8flzzsk0qgiclqnqsc3k8" />
 
@@ -16,7 +16,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <!-- My css -->
     <link rel="stylesheet" href="assets/css/pawiwahan.css" />
-
     <!-- cjs -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="assets/js/jquery.countdown.min.js"></script>
@@ -194,7 +193,7 @@
 
               $('#hitungmundur').countdown({
                 date: h, // TODO Date format: 07/27/2017 17:00:00
-                offset: +8, // TODO Your Timezone Offset
+                offset: +8, // TODO Timezone Offset
                 day: 'Day',
                 days: 'Days',
                 // hideOnComplete: true
@@ -254,13 +253,13 @@
               </div>
             </div>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-outline-danger fw-bold" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>Protokol Kesehatan Covid-19</button>
-              <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <button type="button" class="btn btn-outline-danger fw-bold" data-bs-toggle="modal-" data-bs-target="#exampleModal-1"><svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>Protokol Kesehatan Covid-19</button>
+              <!-- Modal start -->
+              <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-fullscreen-md-down">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Protokol Kesehatan Covid-19</h5>
+                      <h5 class="modal-title" id="exampleModalLabel-1">Protokol Kesehatan Covid-19</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -281,7 +280,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <!-- Akhir Modal -->
           </div>
         </div>
@@ -406,7 +405,7 @@
       <div class="container">
         <div class="row text-center mb-3 mt-3">
           <div class="col">
-            <h2></h2>
+            <h2> Wedding Gift</h2>
             <p>
               Bagi keluarga dan sahabat yang ingin memberikan hadiah, silakan klik tombol dibawah. Terima kasih :)
             </p>
@@ -415,7 +414,16 @@
         <div class="row text-center mb-3 mt-3">
           <div class="col">
               <p class="card-text"></p>
-              <a href="#" class="btn btn-success" ><i class="bi bi-box2-heart"></i> Gift</a>
+              
+              <!-- Modal HTML embedded directly into document -->
+<div id="ex1" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+
+<!-- Link to open the modal -->
+<a href="#ex1"  rel="modal:open" class="btn btn-success" ><i class="bi bi-box2-heart"></i> Gift</a>
+<!-- <p><a href="#ex1" rel="modal:open">Open Modal</a></p> -->
             </div>
           </div>
         </div>
