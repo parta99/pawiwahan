@@ -1,12 +1,9 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* body {
-  background-color: rgb(167, 167, 167);
-  background-image: linear-gradient(rgb(255, 168, 168), #0d6efd);
-} */
 .jumbotron {
   padding: 6rem 1rem;
   background-position: center center;
@@ -165,7 +162,7 @@ h2.title {
   background-color: #bc8887;
 }
 .hero {
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.3)), rgba(0, 0, 0, 0.55) url("https://raw.githubusercontent.com/parta99/parta99.github.io/main/assets/images/pawiwahan011.jpg") no-repeat;
+  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.3)), rgba(0, 0, 0, 0.55) url("https://i.ibb.co/SrJqtgY/RAY-0165-1920-sq.jpg") no-repeat;
   background-size: cover;
   position: relative;
   height: 100%;
@@ -178,14 +175,21 @@ h2.title {
 .hero {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+}
+.hero .title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-bottom: 5px;
+  color: whitesmoke;
 }
 .float-container {
   background-color: #C996CC;
   position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   bottom: 20px;
   right: 20px;
   display: flex;
@@ -251,3 +255,10 @@ ul#hitungmundur li p {
     border-radius: 50%;
   }
 }
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    display: none;
+}
+
