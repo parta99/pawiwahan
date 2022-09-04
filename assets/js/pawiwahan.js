@@ -41,57 +41,45 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
-
-function openModal() {
-  containerGallery.className = "container is-blurred";
-  containerClosing.className = "container is-blurred";
-  modal.style.display = "block";
-}
-
-function closeModal() {
-  modal.style.display = "none";
-  containerGallery.className = "container";
-  containerClosing.className = "container";
-}
-
 function closeWelcomeModal() {
   welcomeModal.style.display = "none";
   myAudio.play()
 }
 
-function copyToClipboard(element) {
-  var value = element.innerText;
-  var popup1 = document.getElementById("popupCopy1");
-  var popup2 = document.getElementById("popupCopy2");
-  element.id == "ananda" ? popup1.classList.toggle("show") : popup2.classList.toggle("show");
-
-  navigator.clipboard
-    .writeText(value)
-    .then(() => {
-      console.log("Text copied to clipboard...");
-    })
-    .catch((err) => {
-      console.log("Something went wrong", err);
-    });
-}
 // play music in background
 function toggleAudio(value) {
   return !value.checked ? myAudio.play() : myAudio.pause();
 }
-// scroll to-top
-$(document).ready(function(){
-	$(window).scroll(function () {
-			if ($(this).scrollTop() > 50) {
-				$('#back-to-top').fadeIn();
-			} else {
-				$('#back-to-top').fadeOut();
-			}
-		});
-		// scroll body to 0px on click
-		$('#back-to-top').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 400);
-			return false;
-		});
+
+// scroll totop
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 500) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
 });
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '500');
+});
+
+// copy to clipboard
+const textElement = document.getElementById("text");
+const copyButton = document.getElementById("copy");
+
+const copyText = (e) => {
+  window.getSelection().selectAllChildren(textElement);
+  document.execCommand("copy");
+  e.target.setAttribute("tooltip", "Copied! ✅");
+};
+
+const resetTooltip = (e) => {
+  e.target.setAttribute("tooltip", "Copy to clipboard");
+};
+
+copyButton.addEventListener("click", (e) => copyText(e));
+copyButton.addEventListener("mouseover", (e) => resetTooltip(e));

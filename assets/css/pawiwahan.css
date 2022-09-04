@@ -20,6 +20,9 @@ section {
 figure {
   margin: 0;
 }
+img.rounded {
+  width: 12rem;
+}
 .navbar {
   background-color: rgb(215, 127, 161);
 }
@@ -48,7 +51,7 @@ img.card-img-top {
   background-repeat: no-repeat;
   background-position: top 3px center;
 }
-#galeri,#lokasi,#pesan{
+#galeri,#lokasi,#pesan,#gift{
   background-image: url(../../assets/images/ornam/Asset5.png),url(../../assets/images/ornam/Asset5a.png);
   background-size: initial;
   background-repeat: no-repeat,no-repeat;
@@ -186,7 +189,7 @@ h2.title {
   color: whitesmoke;
 }
 .float-container {
-  background-color: #C996CC;
+  background-color: #343a40;
   position: fixed;
   width: 35px;
   height: 35px;
@@ -197,7 +200,7 @@ h2.title {
   align-items: center;
   align-self: center;
   border-radius: 50%;
-  box-shadow: 2px 2px 8px #C996CC;
+  box-shadow: 2px 2px 10px #fff;
 }
 .playpause-chk-icon {
   -webkit-appearance: none;
@@ -206,19 +209,21 @@ h2.title {
 }
 
 .playpause-chk-icon + label::before {
-  content: '❚❚';
+  font-family: 'Bootstrap-icons';
+  content: '\F4C2';
+  font-size: 2rem;
   cursor: pointer;
   display: block;
-  font-size: 20px;
   position: relative;
   margin: 2px;
-  color: white;
+  color:white;
   transition: 0.1s transform ease;
   transform: rotate(-180deg);
 }
 
 .playpause-chk-icon:checked + label::before {
-  content: '►';
+  font-family:'Bootstrap-icons';
+  content:'\F4F3';
   cursor: pointer;
   transform: rotate(0);
 }
@@ -261,4 +266,94 @@ ul#hitungmundur li p {
     left: 25px;
     display: none;
 }
-
+/* button scrool to top */
+#button {
+  background-color: #343a40;
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border-radius: 50%;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  font-family: 'Bootstrap-icons';
+  content: '\F13A';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #23023b;
+}
+#button:active {
+  background-color: #23023b;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+figcaption {
+  text-align: center;
+  margin: 10px;
+}
+/* cp to clipboard */
+::selection {
+  background-color: black;
+  color: white;
+}
+#container {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 30px;
+  margin: 0px;
+}
+#text {
+  box-sizing: border-box;
+  background-color: #e8ebee;
+  color: #000000;
+  border-radius: 15px;
+  padding: 10px 15px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Share Tech Mono';
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+#copy::before{
+  /* font-family: 'Bootstrap-icons';
+  content: '\F290'; */
+  position: relative;
+  box-sizing: border-box;
+  width: 180px;
+  min-height: 44px;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 5px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+}
