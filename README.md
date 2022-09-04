@@ -5,13 +5,15 @@ landing page ini masih dalam tahap pengembangan
  *css dari bootstrap5*
  *Google font* [fonts.google.com](https://fonts.google.com/?icon.platform=web&preview.text=Yth.%20Bapak%2FIbu%2FSaudra%2Fi%20Buka%20Undangan&preview.text_type=custom).
  *JQuery countdown dari* [Ekrem KAYA](https://github.com/epiksel/countdown).
- *Ornamen dari by Rawpixel.com* [freepik](<http://www.freepik.com).
+ *Ornamen by Rawpixel.com* [freepik](http://www.freepik.com).
 
 > for view
 site is published at [Pawiwahan Lannding Page](https://parta99.github.io/) :innocent:
 
 ```ruby
-Solusi sebar undangan pernikahan mudah dengan undangan digital berbasis website. Dengan Undangan Website tampilan yang elegan, anda dapat mengirim Undangan semudah mengirim pesan chat
+Solusi sebar undangan pernikahan mudah dengan undangan digital berbasis website. 
+Dengan Undangan Website tampilan yang elegan,
+anda dapat mengirim Undangan semudah mengirim pesan chat
 ```
 
 # Social Media
