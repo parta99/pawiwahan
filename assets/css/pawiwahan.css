@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  background-color: #e8ebee;
 }
 .jumbotron {
   padding: 6rem 1rem;
@@ -21,7 +25,7 @@ figure {
   margin: 0;
 }
 img.rounded {
-  width: 12rem;
+  width: 4rem;
 }
 .navbar {
   background-color: rgb(215, 127, 161);
@@ -36,11 +40,16 @@ img.card-img-top {
   width: 40%;
 }
 .card {
-  -webkit-box-shadow: 10px 10px 34px -10px rgba(136, 121, 176, 1);
+  /* -webkit-box-shadow: 10px 10px 34px -10px rgba(136, 121, 176, 1);
   -moz-box-shadow: 10px 10px 34px -10px rgba(136, 121, 176, 1);
   box-shadow: 10px 10px 34px -10px rgba(136, 121, 176, 1);
   border-radius: 20px;
+  margin-top: 10px; */
+  box-shadow: 13px 13px 20px #caced1, -13px -13px 20px white;
+  border-radius: 20px;
   margin-top: 10px;
+  color: black;
+  background-color: #e8ebee;
 }
 .col{
   margin-top: 20px;
@@ -70,22 +79,18 @@ img.card-img-top {
   background-size: initial;
   background-image: url(../../assets/images/ornam/Asset5a.png);
   background-repeat: no-repeat;
+  padding-top: 25px;
   background-position: bottom 3px center;
 }
 .card-1 {
   border-radius: 20px;
   margin-top: 10px;
-  background-image: url(../../assets/images/ornam/golden-frame-blue-background1080.jpg);
+  /* background-image: url(../../assets/images/ornam/golden-frame-blue-background1080.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-bottom: 0rem;
-}
-#mpl{
-  background-image: url(../../assets/images/ornam/Asset3.png),url(../../assets/images/ornam/Asset2.png);
-  background-position: top 1px center, bottom 1px center;
-  background-repeat: no-repeat, no-repeat;
-  background-size: initial;
+  box-shadow: 12px 12px 20px #caced1, -12px -12px 20px white;
 }
 h1.display-12.text-center {
   padding: 4rem 0;
@@ -93,6 +98,12 @@ h1.display-12.text-center {
   background-repeat: no-repeat;
   background-position: top 15px center;
   font-size: 1.5em;
+}
+#mpl{
+  background-image: url(../../assets/images/ornam/Asset3.png),url(../../assets/images/ornam/Asset2.png);
+  background-position: top 1px center, bottom 1px center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: initial;
 }
 #mpw{
   background-image: url(../../assets/images/ornam/Asset3.png),url(../../assets/images/ornam/Asset2.png);
@@ -132,38 +143,6 @@ audio {
 .container1 {
   text-align: center;
 }
-h1.subtitle {
-  color: white;
-}
-
-h2.title {
-  color: white;
-}
-#toTop {
-  height: 50px;
-  width: 50px;
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: #996e6d;
-  color: white;
-  cursor: pointer;
-  border-radius: 50%;
-  font-size: 2rem;
-  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
-}
-
-#toTop a {
-  color: white;
-}
-
-#toTop:hover {
-  background-color: #bc8887;
-}
 .hero {
   background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.3)), rgba(0, 0, 0, 0.55) url("https://i.ibb.co/SrJqtgY/RAY-0165-1920-sq.jpg") no-repeat;
   background-size: cover;
@@ -177,17 +156,18 @@ h2.title {
 }
 .hero {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 15rem;
 }
-.hero .title {
+/* .hero .title {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 2rem;
   padding-bottom: 5px;
   color: whitesmoke;
-}
+} */
 .float-container {
   background-color: #343a40;
   position: fixed;
@@ -228,6 +208,25 @@ h2.title {
   transform: rotate(0);
 }
 /* countdown css */
+.days,.minutes,.hours,.seconds{
+  border-radius: 6px;
+  padding: 0 6px 0 6px;
+  box-sizing: border-box;
+  background-color: #e8ebee;
+  color: black;
+  box-shadow: inset 2px 2px 8px #caced1, inset -2px -2px 8px white;
+}
+.days_text,.minutes_text,.hours_text,.seconds_text{
+  padding-top: 3px;
+}
+#countdown {
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #caced1,-5px -5px 10px white;
+  margin-bottom: -10px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 ul#hitungmundur {
   list-style: none;
   margin: 25px 0px 0px 0px;
@@ -242,6 +241,7 @@ ul#hitungmundur li span {
   font-size: 30px;
   font-weight: 500;
   line-height: 30px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 ul#hitungmundur li.separator {
   font-size: 30px;
@@ -251,14 +251,6 @@ ul#hitungmundur li.separator {
 ul#hitungmundur li p {
   color: rgb(0, 0, 0);
   font-size: 16px;
-}
-@media (max-width: 670px) {
-  ._1ci,
-  ._1cj {
-    height: 32px;
-    width: 32px;
-    border-radius: 50%;
-  }
 }
 .back-to-top {
     position: fixed;
@@ -322,6 +314,8 @@ figcaption {
   align-items: center;
   padding: 5px 30px;
   margin: 0px;
+  box-shadow: 13px 13px 20px #caced1, -13px -13ox 20px white;
+  border-radius: 15px;
 }
 #text {
   box-sizing: border-box;
@@ -339,6 +333,7 @@ figcaption {
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 1.5;
+  box-shadow: inset 4px 4px 8px #caced1, inset -4px -4px 8px white;
 }
 #copy::before{
   /* font-family: 'Bootstrap-icons';
