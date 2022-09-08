@@ -2,7 +2,7 @@
 landing page ini masih dalam tahap pengembangan 
  This site was built using [GitHub Pages](https://pages.github.com/). 
  *style dari landing page ini terinspirasi dari web programing unpas di video Membuat Website Portfolio dengan Bootstrap5*
- *css dari bootstrap5*
+ *css dari bootstrap5*[bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
  *Google font* [fonts.google.com](https://fonts.google.com/?icon.platform=web&preview.text=Yth.%20Bapak%2FIbu%2FSaudra%2Fi%20Buka%20Undangan&preview.text_type=custom).
  *JQuery countdown dari* [Ekrem KAYA](https://github.com/epiksel/countdown).
  *Ornamen by Rawpixel.com* [freepik](http://www.freepik.com).
