@@ -66,7 +66,21 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '500');
 });
+function copyToClipboard(element) {
+  var value = element.innerText;
+  var popup1 = document.getElementById("popupCopy1");
+  var popup2 = document.getElementById("popupCopy2");
+  element.id == "yeak" ? popup1.classList.toggle("show") : popup2.classList.toggle("show");
 
+  navigator.clipboard
+    .writeText(value)
+    .then(() => {
+      console.log("Text copied to clipboard...");
+    })
+    .catch((err) => {
+      console.log("Something went wrong", err);
+    });
+}
 // copy to clipboard
 const textElement = document.getElementById("text");
 const copyButton = document.getElementById("copy");
