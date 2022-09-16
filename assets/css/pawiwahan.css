@@ -40,11 +40,6 @@ img.card-img-top {
   width: 40%;
 }
 .card {
-  /* -webkit-box-shadow: 10px 10px 34px -10px rgba(136, 121, 176, 1);
-  -moz-box-shadow: 10px 10px 34px -10px rgba(136, 121, 176, 1);
-  box-shadow: 10px 10px 34px -10px rgba(136, 121, 176, 1);
-  border-radius: 20px;
-  margin-top: 10px; */
   box-shadow: 13px 13px 20px #caced1, -13px -13px 20px white;
   border-radius: 20px;
   margin-top: 10px;
@@ -85,7 +80,6 @@ img.card-img-top {
 .card-1 {
   border-radius: 20px;
   margin-top: 10px;
-  /* background-image: url(../../assets/images/ornam/golden-frame-blue-background1080.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -161,13 +155,6 @@ audio {
   align-items: center;
   padding-bottom: 15rem;
 }
-/* .hero .title {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 2rem;
-  padding-bottom: 5px;
-  color: whitesmoke;
-} */
 .float-container {
   background-color: #343a40;
   position: fixed;
