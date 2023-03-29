@@ -1,6 +1,6 @@
 [![Release ](https://flat.badgen.net/github/release/parta99/parta99.github.io/releases)](https://github.com/parta99/parta99.github.io/releases)
 [![Licences ](https://badgen.net/badge/license/MIT/purple)](https://github.com/parta99/parta99.github.io/blob/main/LICENSE)
-
+[![Defaul Branch ](https://badgen.net/github/checks/node-formidable/node-formidable)](https://github.com/parta99/parta99.github.io)
 
 # Landing page Undangan nikah
 landing page ini masih dalam tahap pengembangan 
