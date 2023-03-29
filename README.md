@@ -1,4 +1,5 @@
 [![Release ](https://flat.badgen.net/github/release/parta99/parta99.github.io/releases)](https://github.com/parta99/parta99.github.io/releases)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6324e7f5-1c96-4b61-9e09-95aaf3e3db9d/deploy-status)](https://app.netlify.com/sites/pawiwahan-dejon-eka/deploys)
 [![Licences ](https://badgen.net/badge/license/MIT/purple)](https://github.com/parta99/parta99.github.io/blob/main/LICENSE)
 [![Defaul Branch ](https://badgen.net/github/checks/node-formidable/node-formidable)](https://github.com/parta99/parta99.github.io)
 [![Twitter ](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/@djna911)
