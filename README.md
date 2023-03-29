@@ -8,10 +8,10 @@
 landing page ini masih dalam tahap pengembangan 
  This site was built using [![GitHub Pages](https://flat.badgen.net/badge/icon/github?icon=github&label)](https://pages.github.com/). 
  *style dari landing page ini terinspirasi dari web programing unpas di video Membuat Website Portfolio dengan Bootstrap5* 
- *css dari bootstrap5* [![bootstrap 5](https://flat.badgen.net/badge/github/bootstrap/purple)](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
+ *css dari bootstrap5* [![bootstrap 5](https://flat.badgen.net/badge/bootstrap/5/purple)](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
  *Google font* [![fonts.google.com](https://flat.badgen.net/badge/icon/google?icon=chrome&label)](https://fonts.google.com/?icon.platform=web&preview.text=Yth.%20Bapak%2FIbu%2FSaudra%2Fi%20Buka%20Undangan&preview.text_type=custom).
  *JQuery countdown dari* [![Ekrem KAYA](https://flat.badgen.net/badge/icon/github?icon=github&label)](https://github.com/epiksel/countdown). 
- *Ornamen by Rawpixel.com* [![Freepik ](https://flat.badgen.net/badge/:freepik/:freepik/)](http://www.freepik.com). 
+ *Ornamen by Rawpixel.com* [![Freepik ](https://flat.badgen.net/badge/freepik/freepik/cyan)](http://www.freepik.com). 
 
 > for view
 site is published at [![Pawiwahan Lannding Page](https://flat.badgen.net/badge/icon/visit?icon=chrome&label)](https://pawiwahan-dejon-eka.netlify.app/) :innocent:
@@ -26,8 +26,8 @@ anda dapat mengirim Undangan semudah mengirim {pesan} chat
 (sesuai Nama-Nama Tamu yang akan di Undang)
 ```
 # Social Media
-<ul>
-<li>LinkedIn :https://www.linkedin.com/in/gede-juniada/</li>
-<li>Twitter : https://twitter.com/@djna911</li>
-<li>Instagram : https://www.instagram.com/djna911/</li>
-</ul>
+### follow me!
+[![LinkedIn](https://flat.badgen.net/badge/linkedin/gede-juniada/cyan)](https://www.linkedin.com/in/gede-juniada/)
+[![Twitter](https://flat.badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/@djna911)
+[![Instagram](https://flat.badgen.net/badge/instagram/@djna911/pink)](https://www.instagram.com/djna911/)
+
