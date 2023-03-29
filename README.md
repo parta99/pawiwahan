@@ -1,4 +1,5 @@
-[![Release ](https://flat.badgen.net/github/release/parta99/parta99.github.io/releases)](https://flat.badgen.net/github/release/parta99/parta99.github.io/releases)
+[![Release ](https://flat.badgen.net/github/release/parta99/parta99.github.io/releases)](https://github.com/parta99/parta99.github.io/releases)
+
 # Landing page Undangan nikah
 landing page ini masih dalam tahap pengembangan 
  This site was built using [GitHub Pages](https://pages.github.com/). 
