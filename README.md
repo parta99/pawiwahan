@@ -14,8 +14,7 @@ landing page ini masih dalam tahap pengembangan
  *Ornamen by Rawpixel.com* [freepik](http://www.freepik.com). 
 
 > for view
-site is published at [Pawiwahan Lannding Page](https://pawiwahan-dejon-eka.netlify.app/) :innocent:
-site is published at [![Pawiwahan Lannding Page](https://flat.badgen.net/badge/icon/visit?icon=chrome&label)](https://pawiwahan-dejon-eka.netlify.app/)
+site is published at [![Pawiwahan Lannding Page](https://flat.badgen.net/badge/icon/visit?icon=chrome&label)](https://pawiwahan-dejon-eka.netlify.app/) :innocent:
 
 ```ruby
 Solusi sebar undangan pernikahan mudah dengan undangan digital berbasis website. 
