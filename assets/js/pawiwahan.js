@@ -97,22 +97,3 @@ const resetTooltip = (e) => {
 
 copyButton.addEventListener("click", (e) => copyText(e));
 copyButton.addEventListener("mouseover", (e) => resetTooltip(e));
-
-// hitung mundur
-var now = new Date();
-var day = now.getDate();
-var month = now.getMonth() + 1;
-var year = now.getFullYear() + 1;
-var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-var h ='09/09/2023 08:00:00'
-
-function startCountdown(date, timezoneOffset) {
-  $('#hitungmundur').countdown({
-    date: date, // Format: "mm/dd/yyyy hh:mm:ss"
-    offset: timezoneOffset, // Timezone Offset
-    day: 'Day',
-    days: 'Days'
-  }, function (container) {
-    alert('Acara pernikahan kami sudah selesai. Terima kasih banyak buat yang sudah hadir! :)');
-  });
-}

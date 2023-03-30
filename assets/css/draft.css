@@ -1,9 +1,0 @@
-$white: #fff;
-$black: #000000;
-$bg: #e8ebee;
-$radius: 15px;
-$shadow-color: #caced1;
-$text-font: "Quicksand", sans-serif;
-$btn-font: "Jost", sans-serif;
-$shadow: 13px 13px 20px $shadow-color, -13px -13px 20px $white;
-$shadow-in: inset 4px 4px 8px $shadow-color, inset -4px -4px 8px $white;
