@@ -165,7 +165,7 @@
         <div class="row justify-content-around">
           <div class="col-md-4">
             <img src="https://firebasestorage.googleapis.com/v0/b/djna-pawiwahan.appspot.com/o/test-file%2Ffpawiwahan-01.jpg?alt=media&token=7ff1728e-6446-4ef7-b6f3-6286463ffd6e" width="200" alt="Pawiwahan Juna & Kumala" class="rounded-circle img-thumbnail" />
-            <h1 class="display-12 text-center">Ns.Ni Putu Eka Kumala Dewi,S.Kep.</h1>
+            <h1 class="display-12 text-center">Ns.Ni PT Eka Kumala D,S.Kep.</h1>
             <h2 class="fs-5">Putri Pertama dari pasangan</h2>
             <h2 class="fs-5">I Made Sutama,S.H. & Ni Nyoman Sri Astiti,S.Pd.</h2>
             <h2 class="fs-5">BR. Palak Sukawati</h2>
@@ -185,47 +185,49 @@
             <p class="card-text"></p>
                 <a href="https://goo.gl/maps/1cx27tNHjwx817Ec8" class="btn btn-outline-success fw-bold"> <i class="bi bi-geo-alt-fill" style="font-size: 1rem"></i> google maps</a>
           </div>
-          <!-- Start Countdown -->       
-          <div class="col-md-6 mt-3" id="countdown">
-            <ul id="hitungmundur">
-              <li><span class="days">00</span><p class="days_text">Hari</p></li>
-              <li class="separator">:</li>
-              <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
-              <li class="separator">:</li>
-              <li><span class="minutes">00</span><p class="minutes_text">Menit</p></li>
-              <li class="separator">:</li>
-              <li><span class="seconds">00</span><p class="seconds_text">Detik</p></li>
-            </ul>
-            <div class="spasi">
-            </div>
-            <script class="source" type="text/javascript">
-              var now = new Date();
-              var day = now.getDate();
-              var month = now.getMonth() + 1;
-              var year = now.getFullYear() + 1;
-          
-              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-              var h ='09/09/2022 08:00:00'
-
-              $('#hitungmundur').countdown({
-                date: h, // TODO Date format: 07/27/2017 17:00:00
-                offset: +8, // TODO Timezone Offset
-                day: 'Day',
-                days: 'Days',
-                // hideOnComplete: true
-              },function (container){
-                alert('Acara pernikahan kami sudah selesai. Terima kasih banyak buat yang sudah hadir! :)');
-              });
-            </script>  
-          </div>
-          <!-- End Countdown -->
+        </div>
+        <div class="row justify-content-around text-center">
+                              <!-- Start Countdown -->       
+                              <div class="col-md-6 mt-3" id="countdown">
+                                <ul id="hitungmundur">
+                                  <li><span class="days">00</span><p class="days_text">Hari</p></li>
+                                  <li class="separator">:</li>
+                                  <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
+                                  <li class="separator">:</li>
+                                  <li><span class="minutes">00</span><p class="minutes_text">Menit</p></li>
+                                  <li class="separator">:</li>
+                                  <li><span class="seconds">00</span><p class="seconds_text">Detik</p></li>
+                                </ul>
+                                <div class="spasi">
+                                </div>
+                                <script class="source" type="text/javascript">
+                                  var now = new Date();
+                                  var day = now.getDate();
+                                  var month = now.getMonth() + 1;
+                                  var year = now.getFullYear() + 1;
+                              
+                                  var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+                                  var h ='09/09/2023 08:00:00'
+                    
+                                  $('#hitungmundur').countdown({
+                                    date: h, // TODO Date format: 07/27/2017 17:00:00
+                                    offset: +8, // TODO Timezone Offset
+                                    day: 'Day',
+                                    days: 'Days',
+                                    // hideOnComplete: true
+                                  },function (container){
+                                    alert('Acara pernikahan kami sudah selesai. Terima kasih banyak buat yang sudah hadir! :)');
+                                  });
+                                </script>  
+                              </div>
+                              <!-- End Countdown -->
         </div>
       </div>
     </section>
     <!-- Akhir Jumbotron -->
     <!-- Sloka -->
     <section class="card-1">
-      <div class="container">
+      <div class="container col-md-6">
         <div class="row justify-content-center fs-5 text-center">
           <figure class="text-center">
             <blockquote class="blockquote">
@@ -238,7 +240,7 @@
               </blockquote>
             </figcaption>
           </figure>
-          <div class="col-md-6">
+          <div class="col-md">
             <p class="p">Atas Kehadiran serta Do'a Restunya, kami sekeluarga mengucapkan terima kasih. </p>
           </div>
         </div>
@@ -306,14 +308,14 @@
     <!-- Full screen modal -->   
     <!-- Galeri -->
     <section class="card" id="galeri">
-      <div class="container">
+      <div class="container col-md-6">
         <div class="row text-center mb-3">
           <div class="col">
             <h2>Our Stories</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4 mb-3">
+        <div class="row" style="display: block;">
+          <div class="col-md mb-3">
             <div class="card-">
               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -338,7 +340,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md mb-3">
             <div class="card-">
               <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -363,7 +365,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md mb-3">
             <div class="card-">
               <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -394,7 +396,7 @@
     <!-- Akhir galeri -->
     <!-- Lokasi -->
     <section id="lokasi" class="card">
-      <div class="container">
+      <div class="container col-md-6">
         <div class="row text-center mb-3 mt-3">
           <div class="col">
             <h2>Lokasi Upacara</h2>
@@ -418,7 +420,7 @@
       <!-- lokasi end -->
      <!-- modal gift -->
     <section id="gift" class="card">
-      <div class="container">
+      <div class="container col-md-6">
         <div class="row text-center mb-3 mt-3">
           <div class="col">
             <h2>Wedding Gift</h2>
@@ -477,13 +479,13 @@
 <!-- modal end -->
     <!-- Pesan dan Doa -->
     <section id="pesan" class="card">
-      <div class="container">
+      <div class="container col-md-6">
         <div class="row text-center mb-3 mt-3">
           <div class="col">
             <h2>Pesan & Doa</h2>
           </div>
         </div>
-        <div class="col-md-6">  
+        <div class="col-md">  
             <div class="card-body">
               <h5 class="card-title fst-italic">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.</h3>
                 <div class="fb-comments" data-href="https://parta99.github.io/" data-width="550" data-numposts="2"></div>
