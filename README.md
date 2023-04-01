@@ -28,8 +28,7 @@ anda dapat mengirim Undangan semudah mengirim {pesan} chat
 ?to=I%20Gede%20Jon tambahkan pada akhir URL sebagai param untuk memunculkan Nama Undangan pada masing-masing url, 
 (sesuai Nama-Nama Tamu yang akan di Undang)
 ```
-# Social Media
-### follow me!
+### Social media!
 [![LinkedIn](https://flat.badgen.net/badge/linkedin/gede-juniada/cyan)](https://www.linkedin.com/in/gede-juniada/)
 [![Twitter](https://flat.badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/@djna911)
 [![Instagram](https://flat.badgen.net/badge/instagram/@djna911/pink)](https://www.instagram.com/djna911/)
