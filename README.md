@@ -1,4 +1,5 @@
 [![Release ](https://flat.badgen.net/github/release/parta99/parta99.github.io/releases)](https://github.com/parta99/parta99.github.io/releases)
+[![pages-build-deployment](https://github.com/parta99/pawiwahan/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/parta99/pawiwahan/actions/workflows/pages/pages-build-deployment)
 [![Fork](https://flat.badgen.net/github/forks/parta99/pawiwahan/)](https://github.com/parta99/pawiwahan/forks)
 [![Last Commit](https://flat.badgen.net/github/last-commit/parta99/pawiwahan/main)](https://github.com/parta99/pawiwahan/commits/main)
 [![Commit Count](https://flat.badgen.net/github/commits/parta99/pawiwahan/main)](https://github.com/parta99/pawiwahan)
@@ -6,6 +7,7 @@
 [![Licences ](https://badgen.net/badge/license/MIT/purple)](https://github.com/parta99/parta99.github.io/blob/main/LICENSE)
 [![Defaul Branch ](https://badgen.net/github/checks/node-formidable/node-formidable)](https://github.com/parta99/parta99.github.io)
 [![Twitter ](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/@djna911)
+
 
 # Landing page Undangan nikah
 landing page ini masih dalam tahap pengembangan 
