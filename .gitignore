@@ -10,6 +10,10 @@
 *.userosscache
 *.sln.docstates
 
+# Dependency directories
+node_modules/
+jspm_packages/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

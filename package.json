@@ -1,0 +1,31 @@
+{
+  "name": "parta99.github.io",
+  "version": "1.0.0",
+  "description": "pawiwahan(website undangan pernikahan) landing page",
+  "main": "index.js",
+  "private":"true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite", 
+    "build": "vite build", 
+    "preview": "vite preview" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parta99/pawiwahan.git"
+  },
+  "keywords": [
+    "pawiwahan",
+    "undangan",
+    "pernikahan",
+    "website",
+    "landing",
+    "page"
+  ],
+  "author": "Gede Juniada @djna911",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parta99/pawiwahan/issues"
+  },
+  "homepage": "https://github.com/parta99/pawiwahan#readme"
+}
