@@ -1,14 +1,14 @@
 {
-  "name": "parta99.github.io",
+  "name": "undangan-pawiwahan",
   "version": "1.0.0",
   "description": "pawiwahan(website undangan pernikahan) landing page",
-  "main": "index.js",
-  "private":"true",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite", 
-    "build": "vite build", 
-    "preview": "vite preview" 
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "tailwindcss -i ./src/assets/main.css -o ./src/assets/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,16 @@
   "bugs": {
     "url": "https://github.com/parta99/pawiwahan/issues"
   },
-  "homepage": "https://github.com/parta99/pawiwahan#readme"
+  "homepage": "https://github.com/parta99/pawiwahan#readme",
+  "dependencies": {
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.4"
+  }
 }
