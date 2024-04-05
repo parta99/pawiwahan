@@ -42,8 +42,6 @@
   </head>
   <body id="home">
     <!-- Facebook -->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="7rEcvXxQ"></script>
    <!-- end facebook -->
    <header id="home">
     <!-- navbar -->
@@ -154,7 +152,7 @@
       <div class="container">
         <div class="row justify-content-around">
           <div class="col-md-4">
-            <i class="bi bi-heart-fill text-pink-400"style="font-size: 5rem;"></i>
+            <i class="bi bi-heart-fill text-pink-400" style="font-size: 5rem;"></i>
           </div>
           </div>
         </div>
@@ -187,40 +185,40 @@
           </div>
         </div>
         <div class="row justify-content-around text-center">
-                              <!-- Start Countdown -->       
-                              <div class="col-md-6 mt-3" id="countdown">
-                                <ul id="hitungmundur">
-                                  <li><span class="days">00</span><p class="days_text">Hari</p></li>
-                                  <li class="separator">:</li>
-                                  <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
-                                  <li class="separator">:</li>
-                                  <li><span class="minutes">00</span><p class="minutes_text">Menit</p></li>
-                                  <li class="separator">:</li>
-                                  <li><span class="seconds">00</span><p class="seconds_text">Detik</p></li>
-                                </ul>
-                                <div class="spasi">
-                                </div>
-                                <script class="source" type="text/javascript">
-                                  var now = new Date();
-                                  var day = now.getDate();
-                                  var month = now.getMonth() + 1;
-                                  var year = now.getFullYear() + 1;
-                              
-                                  var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-                                  var h ='09/09/2021 08:00:00'
-                    
-                                  $('#hitungmundur').countdown({
-                                    date: h, // TODO Date format: 07/27/2017 17:00:00
-                                    offset: +8, // TODO Timezone Offset
-                                    day: 'Day',
-                                    days: 'Days',
-                                    // hideOnComplete: true
-                                  },function (container){
-                                    alert('Acara pernikahan kami sudah selesai. Terima kasih banyak buat yang sudah hadir! :)');
-                                  });
-                                </script>  
-                              </div>
-                              <!-- End Countdown -->
+        <!-- Start Countdown -->       
+        <div class="col-md-6 mt-3" id="countdown">
+          <ul id="hitungmundur">
+            <li><span class="days">00</span><p class="days_text">Hari</p></li>
+            <li class="separator">:</li>
+            <li><span class="hours">00</span><p class="hours_text">Jam</p></li>
+            <li class="separator">:</li>
+            <li><span class="minutes">00</span><p class="minutes_text">Menit</p></li>
+            <li class="separator">:</li>
+            <li><span class="seconds">00</span><p class="seconds_text">Detik</p></li>
+          </ul>
+          <div class="spasi">
+          </div>
+          <script class="source" type="text/javascript">
+            var now = new Date();
+            var day = now.getDate();
+            var month = now.getMonth() + 1;
+            var year = now.getFullYear() + 1;
+        
+            var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
+            var h ='09/09/2024 08:00:00'
+
+            $('#hitungmundur').countdown({
+              date: h, // TODO Date format: 07/27/2017 17:00:00
+              offset: +8, // TODO Timezone Offset
+              day: 'Day',
+              days: 'Days',
+              // hideOnComplete: true
+            },function (container){
+              alert('Acara pernikahan kami sudah selesai. Terima kasih banyak buat yang sudah hadir! :)');
+            });
+          </script>  
+        </div>
+        <!-- End Countdown -->                      
         </div>
       </div>
     </section>
