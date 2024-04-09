@@ -1,4 +1,8 @@
-// Get that hamburger menu cookin' //
+// Pawiwahan
+// Version   : 1.0.2
+// Developer : Gede Juna
+// GitHub    : https://github.com/parta99/pawiwahan
+
 var modal = document.getElementById("modalWeddingGift");
 var welcomeModal = document.getElementById("welcomeModal");
 var containerGallery = document.getElementById("containerGallery");

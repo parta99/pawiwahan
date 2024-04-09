@@ -23,8 +23,8 @@ Thema 1 site is published at [![Pawiwahan Lannding Page](https://flat.badgen.net
 # Undangan nikah Thema-2-vueJS
 Wedding invitation ini masih dalam tahap pengembangan,
 Framework yang digunakan untuk membangun pada thema 2: 
-- [ ] menggunakan vue & vite
-- [ ] menggunakan tailwind CSS
+- [x] menggunakan vue & vite
+- [x] menggunakan tailwind CSS
 
 
 ```ruby
@@ -37,6 +37,24 @@ anda dapat mengirim Undangan semudah mengirim {pesan} chat
 untuk memunculkan Nama Undangan pada masing-masing url, 
 (sesuai Nama-Nama Tamu yang akan di Undang)
 ```
+
+> [!NOTE]
+> Harap cantumkan credit [Nama Saya] jika Anda menggunakan desain ini Terima kasih.
+> [x] dengan membiarkan credit nama pada footer
+```js
+    <footer>
+      <nav class="footer">
+        <div class="container-fluid">       
+          &copy; 2022 Created with
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill text-danger" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+          </svg>
+          by <a href="https://www.instagram.com/djna911/" class="text-white fw-bold" style="text-decoration: none"> DE Juna</a>
+        </div>
+      </nav>
+    </footer>
+```
+
 ### Social media!
 [![LinkedIn](https://flat.badgen.net/badge/linkedin/gede-juniada/cyan)](https://www.linkedin.com/in/gede-juniada/)
 [![Twitter](https://flat.badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/@djna911)
