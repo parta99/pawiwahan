@@ -33,11 +33,11 @@ Framework yang digunakan untuk membangun pada thema 2:
 
 > [!NOTE]
 > menambahkan nama undangan, sesuai dengan nama tamu undangan
-
+> tambahkan pada akhir URL sebagai param 
+> untuk memunculkan Nama Undangan pada masing-masing url, 
+> (sesuai Nama-Nama Tamu yang akan di Undang)
 ```js
-?to=I%20Gede%20Jon tambahkan pada akhir URL sebagai param 
-untuk memunculkan Nama Undangan pada masing-masing url, 
-(sesuai Nama-Nama Tamu yang akan di Undang)
+?to=I%20Gede%20Jon
 ```
 
 > [!IMPORTANT]
