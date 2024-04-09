@@ -9,14 +9,20 @@
 [![Twitter ](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/@djna911)
 
 
-# Landing page Undangan nikah
-landing page ini masih dalam tahap pengembangan 
+# Undangan nikah Thema 1
+Wedding invitation Thema 1 hanya menggunakan html, css dan JS tanpa menggunakan framwork.
  This site was built using [![GitHub Pages](https://flat.badgen.net/badge/icon/github?icon=github&label)](https://pages.github.com/). 
- *style dari landing page ini terinspirasi dari web programing unpas di video Membuat Website Portfolio dengan Bootstrap5* 
+ *style dari Thema 1 ini  terinspirasi dari web programing unpas di video Membuat Website Portfolio dengan Bootstrap5* 
  *css dari bootstrap5* [![bootstrap 5](https://flat.badgen.net/badge/bootstrap/5/purple)](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
  *Google font* [![fonts.google.com](https://flat.badgen.net/badge/icon/google?icon=chrome&label)](https://fonts.google.com/?icon.platform=web&preview.text=Yth.%20Bapak%2FIbu%2FSaudra%2Fi%20Buka%20Undangan&preview.text_type=custom).
  *JQuery countdown dari* [![Ekrem KAYA](https://flat.badgen.net/badge/icon/github?icon=github&label)](https://github.com/epiksel/countdown). 
  *Ornamen by Rawpixel.com* [![Freepik ](https://flat.badgen.net/badge/freepik/freepik/cyan)](http://www.freepik.com). 
+
+# Undangan nikah Thema-1-vueJS
+Wedding invitation ini masih dalam tahap pengembangan,
+Framework yang digunakan untuk membangun : 
+- [ ] menggunakan vue & vite
+- [ ] menggunakan tailwind CSS
 
 > for view
 site is published at [![Pawiwahan Lannding Page](https://flat.badgen.net/badge/icon/visit?icon=chrome&label)](https://pawiwahan-dejon-eka.netlify.app/) :innocent:

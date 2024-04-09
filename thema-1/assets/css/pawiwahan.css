@@ -24,6 +24,9 @@ section {
 figure {
   margin: 0;
 }
+.rounded-circle {
+  border-radius: 100px !important;
+}
 img.rounded {
   width: 4rem;
 }
