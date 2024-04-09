@@ -40,7 +40,7 @@ untuk memunculkan Nama Undangan pada masing-masing url,
 
 > [!NOTE]
 > Harap cantumkan credit [Nama Saya] jika Anda menggunakan desain ini Terima kasih.
-> [x] dengan membiarkan credit nama pada footer
+- [x] dengan membiarkan credit nama pada footer
 ```js
     <footer>
       <nav class="footer">
