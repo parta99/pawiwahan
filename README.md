@@ -18,9 +18,9 @@ Wedding invitation Thema 1 hanya menggunakan html, css dan JS tanpa menggunakan 
  *JQuery countdown dari* [![Ekrem KAYA](https://flat.badgen.net/badge/icon/github?icon=github&label)](https://github.com/epiksel/countdown). 
  *Ornamen by Rawpixel.com* [![Freepik ](https://flat.badgen.net/badge/freepik/freepik/cyan)](http://www.freepik.com). 
 
-# Undangan nikah Thema-1-vueJS
+# Undangan nikah Thema-2-vueJS
 Wedding invitation ini masih dalam tahap pengembangan,
-Framework yang digunakan untuk membangun : 
+Framework yang digunakan untuk membangun pada thema 2: 
 - [ ] menggunakan vue & vite
 - [ ] menggunakan tailwind CSS
 
@@ -33,7 +33,8 @@ Dengan Undangan Website tampilan yang elegan,
 anda dapat mengirim Undangan semudah mengirim {pesan} chat
 ```
 ```js
-?to=I%20Gede%20Jon tambahkan pada akhir URL sebagai param untuk memunculkan Nama Undangan pada masing-masing url, 
+?to=I%20Gede%20Jon tambahkan pada akhir URL sebagai param 
+untuk memunculkan Nama Undangan pada masing-masing url, 
 (sesuai Nama-Nama Tamu yang akan di Undang)
 ```
 ### Social media!
