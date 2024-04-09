@@ -32,6 +32,8 @@ Framework yang digunakan untuk membangun pada thema 2:
 > anda dapat mengirim Undangan semudah mengirim {pesan} chat
 
 > [!NOTE]
+> menambahkan nama undangan, sesuai dengan nama tamu undangan
+
 ```js
 ?to=I%20Gede%20Jon tambahkan pada akhir URL sebagai param 
 untuk memunculkan Nama Undangan pada masing-masing url, 
