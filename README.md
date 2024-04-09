@@ -26,19 +26,19 @@ Framework yang digunakan untuk membangun pada thema 2:
 - [x] menggunakan vue & vite
 - [x] menggunakan tailwind CSS
 
+> [!TIP]
+> Solusi sebar undangan pernikahan mudah dengan undangan digital berbasis website.
+> Dengan Undangan Website tampilan yang elegan,
+> anda dapat mengirim Undangan semudah mengirim {pesan} chat
 
-```ruby
-Solusi sebar undangan pernikahan mudah dengan undangan digital berbasis website. 
-Dengan Undangan Website tampilan yang elegan,
-anda dapat mengirim Undangan semudah mengirim {pesan} chat
-```
+> [!NOTE]
 ```js
 ?to=I%20Gede%20Jon tambahkan pada akhir URL sebagai param 
 untuk memunculkan Nama Undangan pada masing-masing url, 
 (sesuai Nama-Nama Tamu yang akan di Undang)
 ```
 
-> [!NOTE]
+> [!IMPORTANT]
 > Harap cantumkan credit [Nama Saya] jika Anda menggunakan desain ini Terima kasih.
 - [x] dengan membiarkan credit nama pada footer
 ```js
