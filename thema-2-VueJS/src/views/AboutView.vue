@@ -40,7 +40,7 @@ import WeddingGift from './WeddingGift.vue';
             <img src="https://firebasestorage.googleapis.com/v0/b/djna-pawiwahan.appspot.com/o/test-file%2Ffpawiwahan-01.jpg?alt=media&token=7ff1728e-6446-4ef7-b6f3-6286463ffd6e" width="200" alt="Pawiwahan Juna & Kumala" class="rounded-circle img-thumbnail" />
           </div>
           <div class="mpw-description">
-            <h1 class="mempelai-nama nama-wanita">Ns.Sophie L. Grimmer,S.Kep.</h1>
+            <h1 class="mempelai-nama nama-wanita">Ns.Gst A. Camilla Kolesnikova,S.Kep.</h1>
             <p class="nama-wanita">Putri Pertama dari pasangan</p>
             <p class="nama-wanita">Bpk David D.Freeman,S.H. & Ibu Tammy R.Henderson,S.Pd.</p>
             <p class="nama-wanita">BR. Palak Sukawati</p>
