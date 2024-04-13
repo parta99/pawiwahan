@@ -1,0 +1,49 @@
+{
+  "name": "undangan-pawiwahan-thema-2-vue",
+  "version": "1.4.4",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "DE Juna",
+    "email": "dejon933@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parta99/pawiwahan/issues"
+  },
+  "keywords": [
+    "pawiwahan",
+    "undangan",
+    "pernikahan",
+    "website",
+    "landing",
+    "page"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "tailwind": "tailwindcss -i ./src/assets/main.css -o ./src/assets/styles.css --watch"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/test-utils": "^2.4.5",
+    "autoprefixer": "^10.4.19",
+    "jsdom": "^24.0.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.1.6",
+    "vite-plugin-vue-devtools": "^7.0.18",
+    "vitest": "^1.4.0"
+  }
+}

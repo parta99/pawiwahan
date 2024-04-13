@@ -1,0 +1,67 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+.h2{
+  font-weight: bold;
+}
+a,
+.link {
+  text-decoration: none;
+  color: fuchsia;
+  transition: 0.4s;
+  padding: 3px;
+}
+section.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+.card {
+  padding: 1rem;
+}
+.deskripsi {
+  text-align: center;
+}
+tbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+tr {
+  display: flex;
+  gap: 0.5rem;
+}
+td {
+  text-align: center;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  background-color: #4493a730;
+  border-radius: 50px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+ }
+ .btn:hover{
+  background-color: #10b981;
+  transition: all 0.3s ease;
+ }
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
