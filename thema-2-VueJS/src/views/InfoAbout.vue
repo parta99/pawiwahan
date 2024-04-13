@@ -69,15 +69,15 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
     color: #10b981;
 }
 figcaption > p{
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: #92400e 1px 0 10px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: #92400e 1px 0 10px;
 }
 .site-title > p::before{
-    content: "\2014\00A0";
+  content: "\2014\00A0";
 }
 .site-title > p {
-   font-style: italic;
-   color : #6c757d;
+ font-style: italic;
+ color : #6c757d;
 }
 </style>

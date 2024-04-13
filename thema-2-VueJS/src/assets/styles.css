@@ -604,6 +604,10 @@ video {
   margin-top: 0.75rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -614,6 +618,10 @@ video {
 
 .grid {
   display: grid;
+}
+
+.hidden {
+  display: none;
 }
 
 .border {
