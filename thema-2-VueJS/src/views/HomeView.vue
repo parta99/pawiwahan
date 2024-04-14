@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faFolderOpen } from '@fortawesome/free-solid-svg-icons';
+import { faFolderOpen, faHeart } from '@fortawesome/free-solid-svg-icons';
 </script>
 <script>
 export default {
@@ -12,7 +12,7 @@ export default {
       return { path: '/', query: { to: destination } };
     },
     linkText() {
-      return this.$route.query.to ? `Yangterhormat ${this.$route.query.to}` : "Yangterhormat Bpk/Ibu Saudara/i";
+      return this.$route.query.to ? `Yth. ${this.$route.query.to}` : "Yth. Bpk/Ibu Saudara/i";
     },
     destination() {
       return this.$route.query.to || "Bpk/Ibu Saudara/i"; 
@@ -28,8 +28,9 @@ export default {
     <div class="box-welcomeModal">
       <div class="deskripsi-welcomeModal">
       <div class="subtitle">Pawiwahan</div>
-      <div class="title">I Gede Joshua & Ayu Camilla</div>
-      <div class="text">Yth : {{ destination }} </div>
+      <div class="title">I Gede Joshua <FontAwesomeIcon :icon="faHeart"/> Ayu Camilla</div>
+      <div class="text">Yth :  </div>
+      <p>{{ destination }}</p>
         <div class="button-welcomeModal">
           <RouterLink to="/landingpage"><FontAwesomeIcon :icon="faFolderOpen"/> Buka Undangan</RouterLink>
         </div>
@@ -65,9 +66,11 @@ main .welcomeModal {
     display: block;
     text-align: center;
     align-content: center;
+}.text{
+  margin-top: 0.75rem;
 }
-.box-welcomeModal .text{
-  margin-bottom: 1.75rem;
+.box-welcomeModal p{
+  margin-bottom: 0.75rem;
 }
 .deskripsi-welcomeModal{
   position: fixed;
@@ -105,5 +108,8 @@ a:hover{
 }
 svg.svg-inline--fa.fa-folder-open {
     padding-right: 0.5rem;
+}
+svg.svg-inline--fa.fa-heart {
+    color: #be185d;
 }
 </style>

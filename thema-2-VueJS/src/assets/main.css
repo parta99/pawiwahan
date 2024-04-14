@@ -8,13 +8,13 @@
 .h2{
   font-weight: bold;
 }
-a,
+/* a,
 .link {
   text-decoration: none;
   color: fuchsia;
   transition: 0.4s;
   padding: 3px;
-}
+} */
 section.card {
     display: flex;
     justify-content: center;
