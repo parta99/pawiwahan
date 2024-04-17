@@ -27,6 +27,7 @@ Wedding invitation ini masih dalam tahap pengembangan,
 Framework yang digunakan untuk membangun pada thema 2: 
 - [x] menggunakan vue & vite
 - [x] menggunakan tailwind CSS
+- [x] menggunakan [flowbite components](https://flowbite.com/docs/components/carousel/)
 
 > [!TIP]
 > Solusi sebar undangan pernikahan mudah dengan undangan digital berbasis website.
