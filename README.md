@@ -18,7 +18,7 @@ Wedding invitation Thema 1 hanya menggunakan html, css dan JS tanpa menggunakan 
  *JQuery countdown dari* [![Ekrem KAYA](https://flat.badgen.net/badge/icon/github?icon=github&label)](https://github.com/epiksel/countdown). 
  *Ornamen by Rawpixel.com* [![Freepik ](https://flat.badgen.net/badge/freepik/freepik/cyan)](http://www.freepik.com). 
  > for view
-Thema 1 site is published at [![Pawiwahan Thema 1](https://flat.badgen.net/badge/icon/visit?icon=chrome&label)](https://pawiwahan-dejon-eka.netlify.app/) :innocent:
+Thema 1 site is published at [[Thema 1]](https://pawiwahan-dejon-eka.netlify.app/) :innocent:
 
 # Undangan nikah Thema-2-vueJS
 Thema 2 site is published at [Thema 2 prismatic ](https://pawiwahan-prismatic.netlify.app/).
