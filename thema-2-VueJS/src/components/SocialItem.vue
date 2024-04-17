@@ -1,6 +1,6 @@
-<script setup lang="ts">
+<script setup>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { faXTwitter, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faXTwitter, faInstagram, faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 </script>
 <template>
@@ -8,5 +8,6 @@ import { faXTwitter, faInstagram, faFacebook } from '@fortawesome/free-brands-sv
      <FontAwesomeIcon :icon="faXTwitter"/>
      <FontAwesomeIcon :icon="faInstagram"/>
      <FontAwesomeIcon :icon="faFacebook"/>
+     <FontAwesomeIcon :icon="faGithub"/>
     </div>
 </template>

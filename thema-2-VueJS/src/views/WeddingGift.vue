@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faGift } from '@fortawesome/free-solid-svg-icons';
 </script>
 <template>
-    <section class="card">
+    <section class="card" id="gifts">
         <div class="container">
             <div class="col">
                 <h2 class="h2">Wedding Gift</h2>
@@ -20,3 +20,5 @@ import { faGift } from '@fortawesome/free-solid-svg-icons';
         </div>
     </section>
 </template>
+<style scoped>
+</style>

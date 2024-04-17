@@ -1,18 +1,12 @@
 <script setup lang="ts">
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faCalendarDays } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 </script>
 <template>
-    <section class="card">
+    <section class="card" id="info">
         <div class="container">
             <div class="col">
-                <div class="deskripsi">
-                    <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu pada :</p>
-                </div>
-                <div class="icon">
-                    <FontAwesomeIcon :icon="faCalendarDays"/>
-                </div>
+                <div class="h2">Waktu dan Tempat</div>
                 <div class="deskripsi-tanggal">
                     <table>
                     <tr>
@@ -36,9 +30,14 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
                         <FontAwesomeIcon :icon="faLocationDot"/>
                     </div>
                     <div class="btn-title">
-                        <button> <a href="http://"></a>  Buka Alamat</button>
+                        <button> <a href="http://"></a>Lokasi Acara</button>
                     </div>
                     
+                </div>
+            </div>
+            <div class="col">
+                <div class="deskripsi">
+                    <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu</p>
                 </div>
             </div>
             <div class="col">
@@ -60,14 +59,19 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
                 </figcaption>
              </figure>
             </div>
+            <div class="col" id="countdown">
+                <h2 class="h2">Hari bahagia</h2>
+                <ul id="hitungmundur">
+                    <li>Hari</li>
+                    <li>Jam</li>
+                    <li>Menit</li>
+                    <li>Detik</li>
+                </ul>
+            </div>
         </div>
     </section>
 </template>
 <style scoped>
-    svg.svg-inline--fa.fa-calendar-days {
-    font-size: 4rem;
-    color: #10b981;
-}
 figcaption > p{
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
@@ -79,5 +83,24 @@ figcaption > p{
 .site-title > p {
  font-style: italic;
  color : #6c757d;
+}
+ul#hitungmundur {
+    list-style: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+    display: flex;
+    gap: 0.75rem;
+    text-align: center;
+}
+#countdown{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #caced1, -5px -5px 10px white;
+    margin-bottom: -10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.col{
+    gap: 0;
 }
 </style>

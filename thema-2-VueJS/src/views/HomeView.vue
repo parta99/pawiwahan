@@ -29,6 +29,7 @@ export default {
       <div class="deskripsi-welcomeModal">
       <div class="subtitle">Pawiwahan</div>
       <div class="title">I Gede Joshua <FontAwesomeIcon :icon="faHeart"/> Ayu Camilla</div>
+      <div class="subtitle-tgl">Selasa, 31 Desember 2024</div>
       <div class="text">Yth :  </div>
       <p>{{ destination }}</p>
         <div class="button-welcomeModal">

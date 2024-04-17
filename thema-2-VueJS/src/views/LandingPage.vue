@@ -1,29 +1,21 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import AboutView from './AboutView.vue';
+import FooterView from './FooterView.vue';
+import WeddingGift from './WeddingGift.vue';
+import Reservasi from './Reservasi.vue';
+import NavbarView from './NavbarView.vue'
+import Carousel from './Carousel.vue';
+import TheGalery from './TheGalery.vue';
 
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
 </script>
 <template>
-  <div class="footer">
-    <nav>
-        <RouterLink to="/about"><FontAwesomeIcon :icon="faUser"/> About</RouterLink>
-    </nav>
-  </div>
-  <RouterView />
+  <Carousel></Carousel>
+  <main>
+    <AboutView></AboutView>
+    <TheGalery></TheGalery>
+    <Reservasi></Reservasi>
+    <WeddingGift></WeddingGift>
+    <footerView></footerView>
+  </main>
+    <NavbarView></NavbarView>
 </template>
-<style scoped>
-  .footer{
-    position: fixed;
-    direction: ltr;
-    display: flex;
-    align-items: center;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 2147483647;
-    height: 64px;
-    background: #fff;
-    box-shadow: 0 0 5px 0 #eee;
-  }
-</style>

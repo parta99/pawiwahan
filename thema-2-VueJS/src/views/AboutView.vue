@@ -2,7 +2,6 @@
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import InfoAbout from './InfoAbout.vue';
-import WeddingGift from './WeddingGift.vue';
 
 </script>
 <template>
@@ -50,7 +49,6 @@ import WeddingGift from './WeddingGift.vue';
       </div>
     </section>
     <InfoAbout></InfoAbout>
-    <WeddingGift></WeddingGift>
 </template>
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
