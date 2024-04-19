@@ -75,15 +75,17 @@ main .welcomeModal {
 }
 .deskripsi-welcomeModal{
   position: fixed;
+  width: max-content;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: block;
     text-align: center;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.8); 
+    background-color: #35374B;
+    color: #F3F8FF;
     border-radius: 25px 0 25px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 10px 6px 15px #35374B30;
     padding: 10px 20px 10px 20px;
     backdrop-filter: blur(10px);
 }
