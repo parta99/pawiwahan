@@ -28,7 +28,7 @@ import InfoAbout from './InfoAbout.vue';
             <h1 class="mempelai-nama nama-pria">I Gede Joshua D. Shinn,S.Kom</h1>
             <p class="nama-pria">Putra Pertama dari pasangan</p>
             <p class="nama-pria">Bpk Dwain J. Brown & Ibu Stephanie P. Dubois</p>
-            <p class="nama-pria">BR. Padang Tunggal</p>
+            <p class="nama-pria">Alamat mempelai-pria</p>
           </div>
         </div>
         <div class="icon-mempelai">
@@ -42,7 +42,7 @@ import InfoAbout from './InfoAbout.vue';
             <h1 class="mempelai-nama nama-wanita">Ns.Gst A. Camilla Kolesnikova,S.Kep.</h1>
             <p class="nama-wanita">Putri Pertama dari pasangan</p>
             <p class="nama-wanita">Bpk David D.Freeman,S.H. & Ibu Tammy R.Henderson,S.Pd.</p>
-            <p class="nama-wanita">BR. Palak Sukawati</p>
+            <p class="nama-wanita">Alamat mempelai-wanita</p>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@ img.rounded-circle.img-thumbnail {
 .container-mempelai p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
-  font-weight: 100;
+  font-weight: 400;
 }
 .icon-mempelai{
   display: flex;
