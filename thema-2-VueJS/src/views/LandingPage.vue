@@ -2,10 +2,10 @@
 import AboutView from './AboutView.vue';
 import FooterView from './FooterView.vue';
 import WeddingGift from './WeddingGift.vue';
-import Reservasi from './Reservasi.vue';
 import NavbarView from './NavbarView.vue'
 import Carousel from './Carousel.vue';
 import TheGalery from './TheGalery.vue';
+import TheReservasi from './TheReservasi.vue'
 
 </script>
 <template>
@@ -13,7 +13,7 @@ import TheGalery from './TheGalery.vue';
   <main>
     <AboutView></AboutView>
     <TheGalery></TheGalery>
-    <Reservasi></Reservasi>
+    <TheReservasi></TheReservasi>
     <WeddingGift></WeddingGift>
     <footerView></footerView>
   </main>
