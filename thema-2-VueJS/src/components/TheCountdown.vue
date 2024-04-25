@@ -1,14 +1,26 @@
 <template>
-    <div>
-      <p v-if="countdownFinished">Terima kasih banyak buat yang sudah hadir!</p>
-      <p v-else class="time-part">
-      <span class="countdown-part">{{ timeRemaining.days }}</span> <p>hari</p>
-      <span class="countdown-part">{{ timeRemaining.hours }}</span> <p>jam</p>
-      <span class="countdown-part">{{ timeRemaining.minutes }}</span> <p>menit</p>
-      <span class="countdown-part">{{ timeRemaining.seconds }}</span> <p>detik</p>
-      </p>
+  <div class="countdown-container">
+    <div v-if="countdownFinished">Terima kasih banyak buat yang sudah hadir!</div>
+    <div v-else class="time-part">
+      <div>
+        <span class="countdown-part">{{ timeRemaining.days }}</span>
+        <p class="countdown-label">hari</p>
+      </div>
+      <div>
+        <span class="countdown-part">{{ timeRemaining.hours }}</span>
+        <p class="countdown-label">jam</p>
+      </div>
+      <div>
+        <span class="countdown-part">{{ timeRemaining.minutes }}</span>
+        <p class="countdown-label">menit</p>
+      </div>
+      <div>
+        <span class="countdown-part">{{ timeRemaining.seconds }}</span>
+        <p class="countdown-label">detik</p>
+      </div>
     </div>
-  </template>
+  </div>
+</template>
   
   <script setup lang="ts">
   import { ref, computed, onMounted } from 'vue';
@@ -39,20 +51,32 @@
   });
   </script>
 <style scoped>
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.time-part {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin: 0 10px;
+}
+
 .countdown-part {
-font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
   font-weight: bold;
-  border-radius: 6px;
-  padding: 0 6px 0 6px;
-  box-sizing: border-box;
-  background-color: #e8ebee;
-  color: black;
-  box-shadow: inset 2px 2px 8px #caced1, inset -2px -2px 8px white;
+  font-size: 25px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background-color: #ac4793;
+  color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-p.time-part {
-    display: flex;
-    column-gap: 5px;
+.countdown-label {
+  font-size: 15px;
 }
-</style>
-  
+</style> 
