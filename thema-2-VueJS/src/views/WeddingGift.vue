@@ -93,6 +93,8 @@ import { faGift, faFaceSmile } from '@fortawesome/free-solid-svg-icons';
 }
 .icon-smile{
   font-size: 1rem;
-  color: #ff00ff70;
+  color: #eab308;
+border-radius: 100px;
+  border: 1px solid #5639af;
 }
 </style>
