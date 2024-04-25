@@ -1,5 +1,7 @@
 <script setup>
 import SocialItem from '@/components/SocialItem.vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faHeartPulse } from '@fortawesome/free-solid-svg-icons';
 import { ref , onMounted } from 'vue';
 
 const currentYear  = ref('');
@@ -18,7 +20,7 @@ function getCurrentYear(){
     <div class="container">
       <div class="col">
         <div class="item-text">
-        <h2> Wedding Invitation &copy; 2022 - {{ currentYear }} By <a href="https://github.com/parta99" target="_blank" rel="noopener noreferrer">DE Juna</a></h2>
+        <h2> &copy; 2022 - {{ currentYear }} Created with <FontAwesomeIcon :icon="faHeartPulse" class="faHeartPulse"/> By <a href="https://github.com/parta99" target="_blank" rel="noopener noreferrer">DE Juna</a></h2>
         <SocialItem></SocialItem>
       </div>
       </div>
@@ -37,5 +39,8 @@ function getCurrentYear(){
     text-decoration: none;
     color: #5639af;
     font-weight: 700;
+  }
+  .faHeartPulse{
+    color: #be185d;
   }
 </style>
