@@ -57,7 +57,7 @@ export default {
     overflow: hidden;
     position: fixed;
     background-position: center;
-    background-image: -webkit-image-set('https://i.ibb.co/SrJqtgY/RAY-0165-1920-sq.jpg');
+    background-image: -webkit-image-set('https://firebasestorage.googleapis.com/v0/b/pawiwahan-aea9e.appspot.com/o/gambar-satu%2FRAY-0165-1920-sq.jpg?alt=media&token=d41ac824-90c4-4e23-8d0e-e201acedca46');
     background-color: rgb(241 128 128 / 80%);
     background-repeat: no-repeat;
     background-size: cover;
