@@ -28,6 +28,7 @@ Framework yang digunakan untuk membangun pada thema 2:
 - [x] menggunakan vue & vite
 - [x] menggunakan tailwind CSS
 - [x] menggunakan [flowbite components](https://flowbite.com/docs/components/carousel/)
+- [x] menggunakan Form to Google Sheets 
 
 > [!TIP]
 > Solusi sebar undangan pernikahan mudah dengan undangan digital berbasis website.
