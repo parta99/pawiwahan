@@ -32,6 +32,8 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/vue-fontawesome": "^3.0.6",
+    "axios": "^1.6.8",
+    "firebase": "^10.11.1",
     "flowbite": "^2.3.0",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
