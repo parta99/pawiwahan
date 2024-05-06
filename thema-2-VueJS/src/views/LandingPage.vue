@@ -15,8 +15,8 @@ import TheAuthComments from '@/components/TheAuthComments.vue';
     <AboutView></AboutView>
     <TheGalery></TheGalery>
     <TheReservasi></TheReservasi>
-    <TheAuthComments></TheAuthComments>
     <WeddingGift></WeddingGift>
+    <TheAuthComments></TheAuthComments>
     <footerView></footerView>
   </main>
     <NavbarView></NavbarView>
