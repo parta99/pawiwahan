@@ -6,6 +6,7 @@ import NavbarView from './NavbarView.vue'
 import Carousel from './Carousel.vue';
 import TheGalery from './TheGalery.vue';
 import TheReservasi from './TheReservasi.vue'
+import TheAuthComments from '@/components/TheAuthComments.vue';
 
 </script>
 <template>
@@ -14,6 +15,7 @@ import TheReservasi from './TheReservasi.vue'
     <AboutView></AboutView>
     <TheGalery></TheGalery>
     <TheReservasi></TheReservasi>
+    <TheAuthComments></TheAuthComments>
     <WeddingGift></WeddingGift>
     <footerView></footerView>
   </main>
