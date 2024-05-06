@@ -30,6 +30,7 @@ Framework yang digunakan untuk membangun pada thema 2:
 - [x] menggunakan [flowbite components](https://flowbite.com/docs/components/carousel/)
 - [x] menggunakan Form to Google Sheets
 - [x] menggunakan [fontAwesome](https://fontawesome.com/icons)
+- [x] fitur Comment dengan nested comment express api, firebase SDK
 
 > [!TIP]
 > Solusi sebar undangan pernikahan mudah dengan undangan digital berbasis website.
