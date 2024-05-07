@@ -21,6 +21,7 @@ import { faGift, faFaceSmile } from '@fortawesome/free-solid-svg-icons';
       <div class="col">
         <button
           data-modal-target="popup-modal"
+          data-modal-toggle="popup-modal"
           class="block rounded-lg outline outline-gray-800 outline-2 outline-offset-2 text-white bg-fuchsia-800 hover:bg-fuchsia-800 focus:ring-4 focus:outline-none focus:ring-fuchsia-300 font-medium text-sm px-4 py-2 text-center dark:bg-fuchsia-600 dark:hover:bg-fuchsia-700 dark:focus:ring-fuchsia-800"
           type="button"
         >
