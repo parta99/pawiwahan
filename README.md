@@ -34,10 +34,10 @@ Framework yang digunakan pada thema 2:
 - [x] `Firebase` REST API + `Authentication.`
 
 Guest list tamu.
-- [x] Integrasi `Google spreadsheets` Guest List Tamu [Google spreadsheets](https://docs.google.com/spreadsheets/d/1_egTjhlK1-fxVXthU3ER1wFn95pHG-vffIlyEQ2N3gw/edit?usp=sharing)
+  - [x] Integrasi `Google spreadsheets` Guest List Tamu [Google spreadsheets](https://docs.google.com/spreadsheets/d/1_egTjhlK1-fxVXthU3ER1wFn95pHG-vffIlyEQ2N3gw/edit?usp=sharing)
 
-- [ ] Todo
-- [ ] Nested Comment, like comment, hide reply.
+Todo
+  - [ ] Nested Comment, like comment, hide reply.
 
 > [!TIP]
 > Solusi sebar undangan pernikahan mudah dengan undangan digital berbasis website.
