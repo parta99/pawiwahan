@@ -36,12 +36,12 @@
               </select>
             </div>
             <button type="submit" id="submit" aria-label="button kirim" :disabled="loading"
-            class="btnKirim text-base font-semibold text-stone-900 bg-amber-500 hover:text-white hover:bg-purple-500 rounded-full shadow-lg py-2 px-6"
+            class="btnKirim text-base font-semibold rounded-lg outline outline-gray-800 outline-2 outline-offset-2 bg-green-600 text-gray-100 hover:text-white hover:bg-red-700 shadow-lg py-1 px-4"
             v-bind:class="{ 'hidden': loading }">
             Send
             </button>
             <div class="w-full px-4 btnLoading" v-bind:class="{ 'hidden': !loading }">
-                <button type="button" class="bg-amber-500 rounded-full shadow-lg py-2 px-6 flex" :disabled="loading">
+                <button type="button" class="rounded-full outline outline-gray-800 outline-2 outline-offset-2 bg-amber-500 text-gray-100 py-1 px-4 flex" :disabled="loading">
                 <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white flex flex-wrap"
                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                     <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
