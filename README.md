@@ -21,7 +21,7 @@ Wedding invitation Thema 1 hanya menggunakan html, css dan JS tanpa menggunakan 
 Thema 1 site is published at [Thema 1](https://pawiwahan-dejon-eka.netlify.app/) :innocent:
 
 # Undangan nikah Thema-2-vueJS
-Thema 2 site is published at [Thema 2 prismatic ](https://pawiwahan-prismatic.netlify.app/).
+Thema 2 site is published at [Thema 2 prismatic ](https://pawiwahan-prismatic-taupe.vercel.app/).
 
 Wedding invitation ini masih dalam tahap pengembangan,
 Framework yang digunakan untuk membangun pada thema 2: 
