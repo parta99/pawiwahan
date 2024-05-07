@@ -10,7 +10,7 @@
 
 
 # Undangan nikah Thema 1
-Wedding invitation Thema 1 hanya menggunakan html, css dan JS tanpa menggunakan framwork.
+Wedding invitation Thema 1 hanya menggunakan `html`, `css` dan `JS` tanpa menggunakan `framwork.`
  This site was built using [![GitHub Pages](https://flat.badgen.net/badge/icon/github?icon=github&label)](https://pages.github.com/). 
  *style dari Thema 1 ini  terinspirasi dari web programing unpas di video Membuat Website Portfolio dengan Bootstrap5* 
  *css dari bootstrap5* [![bootstrap 5](https://flat.badgen.net/badge/bootstrap/5/purple)](https://getbootstrap.com/docs/5.0/getting-started/introduction/) 
@@ -25,16 +25,16 @@ Thema 2 site is published at [Thema 2 prismatic ](https://pawiwahan-prismatic-ta
 
 Wedding invitation ini masih dalam tahap pengembangan,
 Framework yang digunakan pada thema 2: 
-- [x] menggunakan vue & vite.
-- [x] menggunakan tailwind CSS.
+- [x] menggunakan `vue & vite.`
+- [x] menggunakan `tailwind CSS.`
 - [x] menggunakan [flowbite components](https://flowbite.com/docs/components/carousel/)
-- [x] menggunakan Form to Google spreadsheets.
+- [x] menggunakan `Form` to `Google spreadsheets.`
 - [x] menggunakan [fontAwesome](https://fontawesome.com/icons)
-- [x] fitur Comment dengan nested comment express API.
-- [x] Firebase REST API + Authentication.
+- [x] fitur Comment dengan nested comment `expressjs API`.
+- [x] `Firebase` REST API + `Authentication.`
 
 Guest list tamu.
-- [x] Integrasi Google spreadsheets Guest List Tamu [Google spreadsheets](https://docs.google.com/spreadsheets/d/1_egTjhlK1-fxVXthU3ER1wFn95pHG-vffIlyEQ2N3gw/edit?usp=sharing)
+- [x] Integrasi `Google spreadsheets` Guest List Tamu [Google spreadsheets](https://docs.google.com/spreadsheets/d/1_egTjhlK1-fxVXthU3ER1wFn95pHG-vffIlyEQ2N3gw/edit?usp=sharing)
 
 > [!Todo]
 > Nested Comment, like comment, hide reply.
