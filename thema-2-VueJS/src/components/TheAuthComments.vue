@@ -27,8 +27,9 @@
                 <div class="comment-text">{{ comment.text }}</div>
                 <div class="comment-timestamp">{{ formatTimestamp(comment.time) }}</div>
                 <div class="button_comment flex gap-4 py-1 my-1">
-                  <button @click="toggleReplyForm(comment)">Reply</button>
-                  <button @click="deleteComment(comment.id)">Delete</button>
+                  <button class="text-sm" @click="toggleReplyForm(comment)">Reply</button>
+                  <button class="text-sm" @click="deleteComment(comment.id)">Delete</button>
+                  <button class="text-sm" @click="toggleReplies(comment)">{{ comment.showReplies ? 'Hide replies' : 'Show replies [' + comment.replies.length + ']' }}</button>
                 </div>
               </div>     
             </div>
@@ -45,20 +46,20 @@
 
             <!-- Tampilkan balasan di bawah komentar -->
             <div class="reply_comment py-1">
-            <ul v-if="comment.replies && comment.replies.length">
-              <li v-for="reply in comment.replies" :key="reply.id">
-                <div class="comment">
+              <ul v-show="comment.showReplies && comment.replies && comment.replies.length">
+                <li v-for="reply in comment.replies" :key="reply.id">
+                  <div class="comment">
                     <img :src="reply.photoURL" alt="Avatar" class="comment-avatar_reply">
-                  <div class="comment-info">
-                    <div class="comment-name">{{ reply.displayName }}</div>
-                    <div class="comment-text">{{ reply.text }}</div>
-                    <div class="comment-timestamp"> {{ formatTimestamp(reply.time) }}</div>
-                    <button @click="deleteReply(comment.id, reply.id)">Delete</button>
+                    <div class="comment-info">
+                      <div class="comment-name">{{ reply.displayName }}</div>
+                      <div class="comment-text">{{ reply.text }}</div>
+                      <div class="comment-timestamp">{{ formatTimestamp(reply.time) }}</div>
+                      <button @click="deleteReply(comment.id, reply.id)">Delete</button>
+                    </div>
                   </div>
-                </div>
-              </li>
-            </ul>
-          </div>
+                </li>
+              </ul>
+            </div>
           </li>
         </ul>
       <p v-else>Tidak ada Do'a.</p>
