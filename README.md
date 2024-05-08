@@ -4,7 +4,7 @@
 [![Last Commit](https://flat.badgen.net/github/last-commit/parta99/pawiwahan/main)](https://github.com/parta99/pawiwahan/commits/main)
 [![Commit Count](https://flat.badgen.net/github/commits/parta99/pawiwahan/main)](https://github.com/parta99/pawiwahan)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6324e7f5-1c96-4b61-9e09-95aaf3e3db9d/deploy-status)](https://pawiwahan-dejon-eka.netlify.app/)
-[![Licences ](https://badgen.net/badge/license/MIT/purple)](https://github.com/parta99/parta99.github.io/blob/main/LICENSE)
+[![Licences ](https://badgen.net/badge/license/MIT/purple)](https://github.com/parta99/pawiwahan/blob/main/thema-1/LICENSE)
 [![Defaul Branch ](https://badgen.net/github/checks/node-formidable/node-formidable)](https://github.com/parta99/parta99.github.io)
 [![Twitter ](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/@djna911)
 
