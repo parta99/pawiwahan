@@ -9,6 +9,12 @@
 [![Twitter ](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/@djna911)
 
 
+# Demo 
+ > for view
+Thema 1 site is published at [Thema 1](https://pawiwahan-dejon-eka.netlify.app/) :innocent:
+Thema 2 site is published at [Thema 2 prismatic ](https://pawiwahan-prismatic-taupe.vercel.app/).
+
+
 # Undangan nikah Thema 1
 Wedding invitation Thema 1 hanya menggunakan `html`, `css` dan `JS` tanpa menggunakan `framwork.`
  This site was built using [![GitHub Pages](https://flat.badgen.net/badge/icon/github?icon=github&label)](https://pages.github.com/). 
@@ -17,12 +23,9 @@ Wedding invitation Thema 1 hanya menggunakan `html`, `css` dan `JS` tanpa menggu
  *Google font* [![fonts.google.com](https://flat.badgen.net/badge/icon/google?icon=chrome&label)](https://fonts.google.com/?icon.platform=web&preview.text=Yth.%20Bapak%2FIbu%2FSaudra%2Fi%20Buka%20Undangan&preview.text_type=custom).
  *JQuery countdown dari* [![Ekrem KAYA](https://flat.badgen.net/badge/icon/github?icon=github&label)](https://github.com/epiksel/countdown). 
  *Ornamen by Rawpixel.com* [![Freepik ](https://flat.badgen.net/badge/freepik/freepik/cyan)](http://www.freepik.com). 
- > for view
-Thema 1 site is published at [Thema 1](https://pawiwahan-dejon-eka.netlify.app/) :innocent:
+
 
 # Undangan nikah Thema-2-vueJS
-Thema 2 site is published at [Thema 2 prismatic ](https://pawiwahan-prismatic-taupe.vercel.app/).
-
 Wedding invitation ini masih dalam tahap pengembangan,
 Framework yang digunakan pada thema 2: 
 - [x] menggunakan `vue & vite.`
