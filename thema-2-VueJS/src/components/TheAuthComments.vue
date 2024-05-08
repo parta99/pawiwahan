@@ -3,14 +3,20 @@
     <div class="container">
       <h2>Do'a dan Ucapan </h2>
        <!-- Form untuk menambahkan komentar -->
-       <div>
+       <div class="py-4">
         <form @submit.prevent="addComment" class="max-w-xl mx-auto">
           <label for="doa" class="block mb-2 text-sm font-medium text-gray-900 ">Ucapan Anda</label>
-          <textarea id="doa" v-model="newCommentText" placeholder="Tulis Ucapan Anda di sini" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
-          <button type="submit">Kirim Ucapan</button>
+          <div class="relative">
+            <textarea id="doa" v-model="newCommentText" placeholder="Tulis Ucapan Anda di sini" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
+            <div class="absolute bottom-0 right-0 py-1 px-1">
+              <button type="submit" class="py-1 px-2 rounded-l-lg outline outline-gray-800 outline-2 outline-offset-2 bg-green-600 text-gray-100">Kirim Ucapan</button>
+            </div>
+          </div>
         </form>
-        <button v-if="user" @click="logout">Logout</button>
-        <button v-else @click="handleGoogleLogin">Login dengan Google</button>
+        <div class="py-2 px-1">
+          <button class="py-1 px-2 rounded-lg outline outline-gray-800 outline-2 outline-offset-2 bg-green-600 text-gray-100" v-if="user" @click="logout">Logout</button>
+          <button class="py-1 px-2 rounded-lg outline outline-gray-800 outline-2 outline-offset-2 bg-green-600 text-gray-100" v-else @click="handleGoogleLogin">Login dengan Google</button>
+        </div>
       </div>
         <ul v-if="comments.length">
           <li v-for="comment in comments" :key="comment.id">
@@ -28,10 +34,15 @@
             </div>
           
             <!-- Tampilkan formulir balasan jika komentar ini sedang di-reply -->
-            <div class="comment.replying" v-if="comment.replying">
-              <textarea v-model="comment.replyText" placeholder="Balas komentar ini"></textarea>
-              <button @click="sendReply(comment)">Kirim Balasan</button>
+            <div class="pb-4" v-if="comment.replying">
+              <div class="comment.replying relative">
+                  <textarea v-model="comment.replyText" placeholder="Balas komentar ini" class="text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"></textarea>
+                <div class="absolute bottom-0 right-0 py-1 px-1">
+                  <button class="py-0.5 px-1 text-sm rounded-l-lg outline outline-gray-800 outline-2 outline-offset-2 bg-green-500 text-gray-100" @click="sendReply(comment)">Kirim Balasan</button>
+                </div>
+              </div>
             </div>
+
             <!-- Tampilkan balasan di bawah komentar -->
             <div class="reply_comment py-1">
             <ul v-if="comment.replies && comment.replies.length">
@@ -89,7 +100,7 @@ export default {
       try {
         const result = await signInWithPopup(auth, provider);
         this.user = result.user;
-        console.log("Berhasil login dengan Google:", this.user);
+        console.log("Berhasil login dengan Google:");
       } catch (error) {
         console.error("Error saat login dengan Google:", error.message);
       }
@@ -255,14 +266,17 @@ async deleteComment(commentId) {
     }
   },
     async logout() {
-      try {
-        await auth.signOut();
-        // this.user = null;
-        // this.comments = []; // Kosongkan daftar komentar saat logout
-      } catch (error) {
-        console.error('Error logging out: ', error);
-      }
-    },
+    try {
+      await auth.signOut();
+      this.user = null;
+      console.log("Logout berhasil.");
+
+      alert("Logout");
+    } catch (error) {
+      console.error('Error logging out: ', error);
+      alert('Error logging out: ' + error.message);
+    }
+  },
   formatTimestamp(timestamp) {
   const now = new Date();
   const date = new Date(timestamp._seconds * 1000);
@@ -351,7 +365,6 @@ async deleteComment(commentId) {
     flex-direction: column;
     flex-direction: column;
     padding-left: 3rem;
-    padding-bottom: 1rem;
 }
 .reply_comment {
     padding-left: 3rem;
