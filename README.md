@@ -57,6 +57,11 @@ Todo
 ```js
 ?to=I%20Gede%20Jon
 ```
+> [!IMPORTANT]
+> Hostinger adalah pilihan terbaik untuk kebutuhan hosting website Anda.
+> Manfaatkan kesempatan ini untuk mendapatkan hosting berkualitas dengan harga terjangkau.
+> Gunakan kode referal berikut untuk mendapatkan diskon spesial.
+> Hostinger dengan kode referal [1DEWATA50](https://hostinger.co.id?REFERRALCODE=1DEWATA50)
 
 > [!IMPORTANT]
 > Harap cantumkan credit [Nama Saya] jika Anda menggunakan desain ini Terima kasih.
