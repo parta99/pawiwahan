@@ -29,18 +29,19 @@ Wedding invitation Thema 1 hanya menggunakan `html`, `css` dan `JS` tanpa menggu
 
 # Undangan nikah Thema-2-vueJS
 Wedding invitation ini masih dalam tahap pengembangan,
-Framework yang digunakan pada thema 2: 
-- [x] menggunakan `vue & vite.`
-- [x] menggunakan `tailwind CSS.`
-- [x] menggunakan [flowbite components](https://flowbite.com/docs/components/carousel/)
-- [x] menggunakan `Form` to `Google spreadsheets.`
-- [x] menggunakan [fontAwesome](https://fontawesome.com/icons)
-- [x] fitur Comment dengan nested comment `expressjs API`.
-- [x] `Firebase` REST API + `Authentication.`
+Proyek ini adalah aplikasi web interaktif yang dibangun dengan teknologi modern untuk keperluan manajemen tamu. Berikut adalah deskripsi singkat dari berbagai teknologi dan fitur yang digunakan dalam aplikasi ini:
+- [x] Aplikasi ini dibangun menggunakan `Vue.js` untuk pengembangan antarmuka pengguna yang reaktif dan `Vite` untuk build tool yang cepat dan efisien.
+- [x] Untuk styling, Tailwind CSS digunakan untuk memberikan tampilan yang konsisten dan modern dengan utilitas kelas yang mudah disesuaikan.
+- [x] Menggunakan komponen dari [flowbite components](https://flowbite.com/docs/components/carousel/) untuk mempercepat pengembangan UI dengan elemen-elemen yang sudah siap pakai dan dapat dikustomisasi.
+- [x] Form to `Google Spreadsheets`: Aplikasi ini memiliki fitur untuk mengirimkan data dari form langsung ke `Google Spreadsheets`, memudahkan pengumpulan dan pengelolaan data tamu.
+- [x] `FontAwesome`: Menggunakan [fontAwesome](https://fontawesome.com/icons) untuk menambahkan ikon-ikon yang menarik dan fungsional pada antarmuka pengguna.menggunakan.
+- [x] Comment dengan Nested Comment Express.js API: Fitur komentar yang mendukung komentar bersarang, diimplementasikan menggunakan API Express.js untuk mengelola komunikasi antara frontend dan backend.
+- [x] Firebase `REST API + Authentication`: Menggunakan `Firebase` untuk autentikasi pengguna dan REST API untuk komunikasi data yang aman dan efisien.
 
 Guest list tamu.
-  - [x] Integrasi `Google spreadsheets` Guest List Tamu [Google spreadsheets](https://docs.google.com/spreadsheets/d/1_egTjhlK1-fxVXthU3ER1wFn95pHG-vffIlyEQ2N3gw/edit?usp=sharing)
-
+  - [x] Guest List Tamu: Aplikasi ini memiliki fitur daftar tamu yang memungkinkan pengguna untuk melihat, menambah, dan mengelola daftar tamu dengan mudah. [Google spreadsheets](https://docs.google.com/spreadsheets/d/1_egTjhlK1-fxVXthU3ER1wFn95pHG-vffIlyEQ2N3gw/edit?usp=sharing)
+  - [x]Dengan kombinasi teknologi ini, aplikasi ini menawarkan solusi yang lengkap dan modern untuk pengelolaan tamu dengan pengalaman pengguna yang intuitif dan efisien.
+  
 Todo
   - [ ] Nested Comment, like comment, hide reply.
 
