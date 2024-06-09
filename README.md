@@ -34,7 +34,7 @@ Proyek ini adalah aplikasi web interaktif yang dibangun dengan teknologi modern 
 - [x] Untuk styling, Tailwind CSS digunakan untuk memberikan tampilan yang konsisten dan modern dengan utilitas kelas yang mudah disesuaikan.
 - [x] Menggunakan komponen dari [flowbite components](https://flowbite.com/docs/components/carousel/) untuk mempercepat pengembangan UI dengan elemen-elemen yang sudah siap pakai dan dapat dikustomisasi.
 - [x] Form to `Google Spreadsheets`: Aplikasi ini memiliki fitur untuk mengirimkan data dari form langsung ke `Google Spreadsheets`, memudahkan pengumpulan dan pengelolaan data tamu.
-- [x] `FontAwesome`: Menggunakan [fontAwesome](https://fontawesome.com/icons) untuk menambahkan ikon-ikon yang menarik dan fungsional pada antarmuka pengguna.menggunakan.
+- [x] `FontAwesome`: Menggunakan [fontAwesome](https://fontawesome.com/icons) untuk menambahkan ikon-ikon yang menarik dan fungsional pada antarmuka pengguna.
 - [x] Comment dengan Nested Comment Express.js API: Fitur komentar yang mendukung komentar bersarang, diimplementasikan menggunakan API Express.js untuk mengelola komunikasi antara frontend dan backend.
 - [x] Firebase `REST API + Authentication`: Menggunakan `Firebase` untuk autentikasi pengguna dan REST API untuk komunikasi data yang aman dan efisien.
 
