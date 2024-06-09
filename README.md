@@ -40,7 +40,7 @@ Proyek ini adalah aplikasi web interaktif yang dibangun dengan teknologi modern 
 
 Guest list tamu.
   - [x] Guest List Tamu: Aplikasi ini memiliki fitur daftar tamu yang memungkinkan pengguna untuk melihat, menambah, dan mengelola daftar tamu dengan mudah. [Google spreadsheets](https://docs.google.com/spreadsheets/d/1_egTjhlK1-fxVXthU3ER1wFn95pHG-vffIlyEQ2N3gw/edit?usp=sharing)
-  - [x]Dengan kombinasi teknologi ini, aplikasi ini menawarkan solusi yang lengkap dan modern untuk pengelolaan tamu dengan pengalaman pengguna yang intuitif dan efisien.
+  - [x] Dengan kombinasi teknologi ini, aplikasi ini menawarkan solusi yang lengkap dan modern untuk pengelolaan tamu dengan pengalaman pengguna yang intuitif dan efisien.
   
 Todo
   - [ ] Nested Comment, like comment, hide reply.
