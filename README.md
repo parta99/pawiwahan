@@ -1,6 +1,6 @@
 [![Release ](https://flat.badgen.net/github/release/parta99/parta99.github.io/releases)](https://github.com/parta99/parta99.github.io/releases)
 [![pages-build-deployment](https://github.com/parta99/pawiwahan/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/parta99/pawiwahan/actions/workflows/pages/pages-build-deployment)
-[![Fork](https://flat.badgen.net/github/forks/parta99/pawiwahan/)](https://github.com/parta99/pawiwahan/forks)
+[![Fork](https://flat.badgen.net/github/forks/parta99/pawiwahan/)](https://github.com/parta99/pawiwahan/forks?include=active%2Cinactive&page=1&period=&sort_by=stargazer_counts)
 [![Last Commit](https://flat.badgen.net/github/last-commit/parta99/pawiwahan/main)](https://github.com/parta99/pawiwahan/commits/main)
 [![Commit Count](https://flat.badgen.net/github/commits/parta99/pawiwahan/main)](https://github.com/parta99/pawiwahan)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6324e7f5-1c96-4b61-9e09-95aaf3e3db9d/deploy-status)](https://pawiwahan-dejon-eka.netlify.app/)
