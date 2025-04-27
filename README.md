@@ -83,6 +83,6 @@ Todo
 
 ### Social media!
 [![LinkedIn](https://flat.badgen.net/badge/linkedin/gede-juniada/cyan)](https://www.linkedin.com/in/gede-juniada/)
-[![Twitter](https://flat.badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/@djna911)
+[![Twitter](https://flat.badgen.net/badge/icon/twitter?icon=twitter&label)](https://x.com/@djna911)
 [![Instagram](https://flat.badgen.net/badge/instagram/@djna911/pink)](https://www.instagram.com/djna911/)
 
